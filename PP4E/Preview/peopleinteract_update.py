@@ -23,7 +23,7 @@ with shelve.open('class-shelve') as db:
                     currval = getattr(record, field)
                     newtext = input('\t[%s]=%s\n\t\tnew?=>' % (field, currval))
                     if newtext:
-                        setattr(record, field, newtext)
+                        setattr(record, field, eval(newtext))
                 db[key] = record
         except NameError:
             pass
@@ -31,7 +31,7 @@ with shelve.open('class-shelve') as db:
             if addnew == 'Y':
                 for field in fieldnames:
                     newtext = input('\t[%s]= ' % field)
-                    setattr(record, field, newtext)
+                    setattr(record, field, eval(newtext))
                 db[key] = record
         except NameError:
             pass
