@@ -16,4 +16,4 @@ with shelve.open('class-shelve') as db:
             print('No such key "%s"!' % key)
         else:
             for field in fieldnames:
-                print(field.ljust(maxfield), '=>', getarrt(record, field))
+                print(field.ljust(maxfield), '=>', getattr(record, field))

@@ -8,14 +8,17 @@ maxfield = max(len(x) for x in fieldnames)
 
 with shelve.open('class-shelve') as db:
     while True:
+        key = None
         key = input('\nInput the key you want to search: ')
         if key == 'exit': break
         if key in db:
+            modify = None
             record = db[key]
             for field in fieldnames:
                 print(field.ljust(maxfield), ' => ', getattr(record, field))
             modify = input('\nDo you want to change the record?(Y/N): ')
         else:
+            addnew = None
             addnew = input('\n"%s" not exist, add new?(Y/N)' % key)
         try:
             if modify == 'Y':
