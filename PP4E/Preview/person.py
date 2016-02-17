@@ -11,7 +11,7 @@ class Person:
     def giveRaise(self, percent):
         self.pay *= (1.0 + percent)
     def __str__(self):
-        return key, '=>', self.__dict__[key]
+        return ('<%s => %s: %s, %s>' % (self.__class__.__name__, self.name, self.job, self.pay))
 
 
 if __name__ == '__main__':
