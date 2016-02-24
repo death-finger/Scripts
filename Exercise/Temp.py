@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import sys
-open('/dev/tty').readline()[:-1]
+from subprocess import Popen, PIPE
+
+p1 = Popen('python3.5 ')
