@@ -7,7 +7,7 @@ host = 'localhost'
 
 def server():
     sock = socket(AF_INET, SOCK_STREAM)
-    sock.bind('', port)
+    sock.bind(('', port))
     sock.listen(5)
     while True:
         conn, addr = sock.accept()
@@ -17,7 +17,7 @@ def server():
 
 def client(name):
     sock = socket(AF_INET, SOCK_STREAM)
-    sock.connect(host, port)
+    sock.connect((host, port))
     sock.send(name.encode())
     reply = sock.recv(1024)
     sock.close()
