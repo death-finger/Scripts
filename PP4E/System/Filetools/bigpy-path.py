@@ -1,7 +1,7 @@
 # e.g. 6-3
 
 import sys, os, pprint
-trace = 0   # 1代表目录, 2代表加上文件
+trace = 2   # 1代表目录, 2代表加上文件
 
 visited = {}
 allsizes = []
