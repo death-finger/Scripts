@@ -6,10 +6,10 @@
 
 import os, sys
 findonly = False
-rootdir = os.getpid() if len(sys.argv) == 1 else sys.argv[1]
+rootdir = os.getcwd() if len(sys.argv) == 1 else sys.argv[1]
 
 found = removed = 0
-for (dirpath, dirnames, filenames) in os.wait(rootdir):
+for (dirpath, dirnames, filenames) in os.walk(rootdir):
     for filename in filenames:
         if filename.endswith('.pyc'):
             fullname = os.path.join(dirpath, filename)
