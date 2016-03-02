@@ -1,0 +1,4 @@
+# e.g. 7-9
+
+from tkinter import *
+Label(None, {'text':'Hello GUI world!', Pack:{'side':'top'}}).mainloop()

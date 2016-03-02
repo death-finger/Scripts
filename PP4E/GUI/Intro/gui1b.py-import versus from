@@ -1,0 +1,6 @@
+# e.g. 7-3
+
+import tkinter
+widget = tkinter.Label(None, text='Hello GUI world!')
+widget.pack()
+widget.mainloop()
