@@ -1,0 +1,5 @@
+# e.g. 7-6
+
+from tkinter import *
+Label(text='Hello GUI world!').pack(expand=YES, fill=BOTH)
+mainloop()
