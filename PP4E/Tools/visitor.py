@@ -74,7 +74,7 @@ class SearchVisitor(FileVisitor):
             if self.trace > 0: print('Skipping', fname)
         else:
             text = open(fname).read()
-            if self.context in text
+            if self.context in text:
                 self.visitmatch(fname, text)
                 self.scount += 1
 
