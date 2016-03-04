@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21ac7bc-f033-4a18-8edc-2d8332df0dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercise/ButtonTheme.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exercise/O365Home.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui3c.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui3d.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui3e.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui5b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui6b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui6c.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui6d.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui7b.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Intro/gui7c.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/config-button.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/config-label.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/dlg1.pyw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/toplevel0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/toplevel2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/bind.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-auto.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-manual.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/demoCheck.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/demoRadio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/dlg-customer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/dlg-old.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/dlg-recursive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/entry1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/entry2-modal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/entry2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/entry3-modal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/entry3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/message.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tour/setcolor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Scripts.iws" />
@@ -44,35 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="toplevel0.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/toplevel0.py">
+      <file leaf-file-name="demoRadio.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/demoRadio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20323326">
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
               <folding>
-                <element signature="e#12#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toplevel2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/toplevel2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dlg1.pyw" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dlg1.pyw">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55427253">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#33#0" expanded="true" />
+                <element signature="e#13#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,21 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/pipe-thread.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/pipes-testchild.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/pipes.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/pipefifo.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/socket_preview.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/multi3.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/multi4.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/mulit5.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/multi6.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Processes/spawnv.py" />
-        <option value="$PROJECT_DIR$/PP4E/launchmodes.py" />
-        <option value="$PROJECT_DIR$/PP4E/echo.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Filetools/bigpy-dir.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Filetools/bigpy-tree.py" />
-        <option value="$PROJECT_DIR$/PP4E/System/Filetools/bigpy-path.py" />
         <option value="$PROJECT_DIR$/PP4E/System/Filetools/bigext-tree.py" />
         <option value="$PROJECT_DIR$/PP4E/System/Filetools/split.py" />
         <option value="$PROJECT_DIR$/PP4E/System/Filetools/join.py" />
@@ -141,6 +99,21 @@
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/toplevel0.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/toplevel2.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/dlg1.pyw" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/setcolor.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/dlg-old.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/dlg-customer.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/dlg-recursive.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/bind.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/message.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/entry1.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/entry2.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/entry2-modal.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/entry3.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/entry3-modal.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/demoCheck.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-manual.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-auto.py" />
+        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/demoRadio.py" />
       </list>
     </option>
   </component>
@@ -270,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="tasks" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/joshuapu/Documents/Scripts/PP4E/Preview/make_db_classes.py" />
   </component>
@@ -304,7 +277,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Tools/cleanpyc.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -312,10 +284,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Tools/cleanpy-find-py.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Tools/cleanpyc-find-shell.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Tools/search_all.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Tools/visitor.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tour/demoDlg-print.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tour/demoDlg.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tour/dialogTable.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tour/quitter.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -404,8 +376,8 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.dlg1.pyw">
-    <configuration default="false" name="config-button" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.demoRadio">
+    <configuration default="false" name="entry3-modal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -417,29 +389,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/config-button.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/entry3-modal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ButtonTheme" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise/ButtonTheme.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="toplevel0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="demoCheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -451,12 +406,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/toplevel0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/demoCheck.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="toplevel2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="demo-check-manual" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -468,12 +423,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/toplevel2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-manual.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="dlg1.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="demo-check-auto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -485,7 +440,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/dlg1.pyw" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-auto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="demoRadio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/GUI/Tour" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/GUI/Tour/demoRadio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -613,19 +585,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.config-button" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ButtonTheme" />
-      <item index="2" class="java.lang.String" itemvalue="Python.toplevel0" />
-      <item index="3" class="java.lang.String" itemvalue="Python.toplevel2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dlg1.pyw" />
+      <item index="0" class="java.lang.String" itemvalue="Python.entry3-modal" />
+      <item index="1" class="java.lang.String" itemvalue="Python.demoCheck" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo-check-manual" />
+      <item index="3" class="java.lang.String" itemvalue="Python.demo-check-auto" />
+      <item index="4" class="java.lang.String" itemvalue="Python.demoRadio" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dlg1.pyw" />
-        <item index="1" class="java.lang.String" itemvalue="Python.toplevel2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.toplevel0" />
-        <item index="3" class="java.lang.String" itemvalue="Python.config-button" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ButtonTheme" />
+        <item index="0" class="java.lang.String" itemvalue="Python.demoRadio" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo-check-auto" />
+        <item index="2" class="java.lang.String" itemvalue="Python.demo-check-manual" />
+        <item index="3" class="java.lang.String" itemvalue="Python.demoCheck" />
+        <item index="4" class="java.lang.String" itemvalue="Python.entry3-modal" />
       </list>
     </recent_temporary>
   </component>
@@ -718,7 +690,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456964820009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20160303 17:21">
+      <created>1456996933433</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1456996933433</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -729,7 +707,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704142" sideWeight="0.5065048" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704142" sideWeight="0.49349523" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31804734" sideWeight="0.49696445" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -789,7 +767,8 @@
     <MESSAGE value="20160229 17:13" />
     <MESSAGE value="20160301 17:16" />
     <MESSAGE value="20160303 8:26" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160303 8:26" />
+    <MESSAGE value="20160303 17:21" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160303 17:21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,146 +777,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/socket_preview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/multi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/multi2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#22#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/signal2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/multi3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1353211">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/multi4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5527523">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/mulit5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/multi6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Processes/spawnv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/launchmodes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="15" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Filetools/bigpy-dir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1039261">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/echo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034642033">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Filetools/bigpy-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Filetools/bigpy-path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Filetools/bigext-tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/System/Filetools/split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/System/Filetools/join.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1196,9 +1035,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/toplevel0.py">
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dlg1.pyw">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/setcolor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55427253">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dlg-old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30715936">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dlg-recursive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5889146">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/demoDlg-print.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69284064">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/entry1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/toplevel0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48498845">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#12#22#0" expanded="true" />
@@ -1208,18 +1111,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/toplevel2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.7921478">
           <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dlg1.pyw">
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/bind.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55427253">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dlg-customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#12#33#0" expanded="true" />
+            <element signature="e#13#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/entry2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/entry2-modal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/entry3-modal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7274827">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/entry3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79676676">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/demoCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-manual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/demo-check-auto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/dialogTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/demoRadio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20323326">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="e#13#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
