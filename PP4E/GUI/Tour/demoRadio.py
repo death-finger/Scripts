@@ -29,7 +29,7 @@ class Demo(Frame):
 class MyDemo(Demo):
     def __init__(self, parent=None, **options):
         Demo.__init__(self, parent, **options)
-        msglab = Label(self, text=self.onPress).pack(side=RIGHT)
+        #msglab = Label(self, text=self.onPress).pack(side=RIGHT)
 
 
 if __name__ == '__main__':
