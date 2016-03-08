@@ -32,5 +32,5 @@ def viewer(imgdir, kind=Toplevel, cols=None):
 
 if __name__ == '__main__':
     imgdir = 'images'
-    main, save = viewer(imgdir, kind=Tk)
+    main, save = viewer(imgdir, kind=Tk, cols=12)
     main.mainloop()
