@@ -10,7 +10,7 @@ def gridbox(parent):
         lab = Label(parent, text=color, relief=RIDGE, width=25)
         ent = Entry(parent, bg=color, relief=SUNKEN, width=50)
         lab.grid(row=row, column=0)
-        lab.grid(row=row, column=1)
+        ent.grid(row=row, column=1)
         ent.insert(0, 'grid')
         row += 1
 
