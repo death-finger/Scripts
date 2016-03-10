@@ -1,132 +1,142 @@
-# -*- coding:utf-8 -*-
 """
-#############################################################################
-用命令行和可复用的启动方案来启动Python程序; 在命令行开头自动向Python可执行文件插入
-"python"和/或路径; 这个模块的某些部分可能假定'python'在你的系统路径中(参考Launcher.py);
+###################################################################################
+launch Python programs with command lines and reusable launcher scheme classes;
+auto inserts "python" and/or path to Python executable at front of command line;
+some of this module may assume 'python' is on your system path (see Launcher.py);
 
-使用subprocess模块也可行, 不过os.popen()在内部调用这个模块, 目标是在这里启动一个独立运行的
-程序, 而非连接到它的流; multiprocessing模块也是一个选择, 不过这里处理命令行而非函数, 为实
-现这里的选项之一而开始一个进程不是很合理;
+subprocess module would work too, but os.popen() uses it internally, and the goal
+is to start a program running independently here, not to connect to its streams;
+multiprocessing module also is an option, but this is command-lines, not functions:
+doesn't make sense to start a process which would just do one of the options here;
 
-脚本文件名路径将经过normpath()处理, 必要时将所有/改成\以供Windows工具使用;
-PyEdit和其他工具继承这个修正; 在Windows下吗一般允许在文件打开中用/, 但并非所有启动工具;
-#############################################################################
+new in this edition: runs script filename path through normpath() to change any
+/ to \ for Windows tools where required; fix is inherited by PyEdit and others;
+on Windows, / is generally allowed for file opens, but not by all launcher tools;
+###################################################################################
 """
 
 import sys, os
 pyfile = (sys.platform[:3] == 'win' and 'python.exe') or 'python'
-pyPATH = sys.executable
-
+pypath = sys.executable     # use sys in newer pys
 
 def fixWindowsPath(cmdline):
     """
-    将cmdline开头的脚本文件名路径里所有的/改成\; 在Windows下, 仅为运行需要这种处理的
-    工具的类所使用; 在其他平台上, 这么做也没有坏处;
+    change all / to \ in script filename path at front of cmdline;
+    used only by classes which run tools that require this on Windows;
+    on other platforms, this does not hurt (e.g., os.system on Unix);
     """
-    splitline = cmdline.lstrip().split(' ')
-    fixedPATH = os.path.normpath(splitline[0])
-    return ' '.join([fixedPATH] + splitline[1:])
+    splitline = cmdline.lstrip().split(' ')           # split on spaces
+    fixedpath = os.path.normpath(splitline[0])        # fix forward slashes 
+    return ' '.join([fixedpath] + splitline[1:])      # put it back together 
 
 class LaunchMode:
     """
-    在实例中待命, 声明标签并运行命令; 子类按照run()中的需要格式化命令行; 命令应当以
-    准备运行的python脚本名开头, 而且不带"python"或脚本的完整路径
+    on call to instance, announce label and run command;
+    subclasses format command lines as required in run(); 
+    command should begin with name of the Python script
+    file to run, and not with "python" or its full path;
     """
     def __init__(self, label, command):
-        self.what = label
+        self.what  = label
         self.where = command
-    def __call__(self):             # 等待调用, 执行按钮按下的回调动作
+    def __call__(self):                     # on call, ex: button press callback
         self.announce(self.what)
-        self.run(self.where)        # 子类必须定义run()
-    def announce(self, text):       # 子类可以重新定义announce()
-        print(text)
+        self.run(self.where)                # subclasses must define run()
+    def announce(self, text):               # subclasses may redefine announce()
+        print(text)                         # methods instead of if/elif logic
     def run(self, cmdline):
-        assert False, 'run() must be defined'
+        assert False, 'run must be defined'
 
-class System(LaunchMode):
+class System(LaunchMode): 
     """
-    运行shell命令行中指定的Python脚本; 小心: 可能阻塞调用者, 除非在
-    Unix下带上&操作符
+    run Python script named in shell command line
+    caveat: may block caller, unless & added on Unix
     """
     def run(self, cmdline):
         cmdline = fixWindowsPath(cmdline)
-        os.system('%s %s' % (pyPATH, cmdline))
+        os.system('%s %s' % (pypath, cmdline))
 
 class Popen(LaunchMode):
     """
-    在新进程中运行shell命令行; 小心: 可能阻塞调用者, 因为管道关闭的太快
+    run shell command line in a new process
+    caveat: may block caller, since pipe closed too soon
     """
-    def run(self, cmdline):
+    def run(self, cmdline):                        
         cmdline = fixWindowsPath(cmdline)
-        os.popen(pyPATH + ' ' + cmdline)        # 假设没有数据可以读取
+        os.popen(pypath + ' ' + cmdline)           # assume nothing to be read
 
 class Fork(LaunchMode):
     """
-    在显示地创建的新进程中运行命令, 仅在类Unix系统下可用, 包括Cygwin
+    run command in explicitly created new process
+    for Unix-like systems only, including cygwin
     """
     def run(self, cmdline):
-        assert hasattr(os, 'fork')
-        cmdline = cmdline.split()
-        if os.fork() == 0:
-            os.execvp(pyPATH, [pyfile] + cmdline)
+        assert hasattr(os, 'fork')                 
+        cmdline = cmdline.split()                  # convert string to list
+        if os.fork() == 0:                         # start new child process
+            os.execvp(pypath, [pyfile] + cmdline)  # run new program in child
 
 class Start(LaunchMode):
     """
-    独立于调用者运行程序, 仅在WIndows下可用: 使用了文件名关联
+    run command independent of caller
+    for Windows only: uses filename associations
     """
     def run(self, cmdline):
         assert sys.platform[:3] == 'win'
         cmdline = fixWindowsPath(cmdline)
-        os.startfile(cmdline)
+        os.startfile(cmdline)                      
 
 class StartArgs(LaunchMode):
     """
-    仅在Windows下可用: args可能需要用到真正的start命令; 斜杠在这里没问题
+    for Windows only: args may require real start
+    forward slashes are okay here
     """
-    def run(self, cmdline):
+    def run(self, cmdline):                        
         assert sys.platform[:3] == 'win'
-        os.system('start' + cmdline)
+        os.system('start ' + cmdline)              # may create pop-up window
 
 class Spawn(LaunchMode):
     """
-    在独立于调用者的新进程中运行python; 在Windows和Unix下都可用;
-    DOS中使用P_NOWAIT; 斜杠在这里没问题
+    run python in new process independent of caller
+    for Windows or Unix; use P_NOWAIT for dos box;
+    forward slashes are okay here
     """
-    def run(self, cmdline):
-        os.spawnv(os.P_DETACH, pyPATH, (pyfile, cmdline))
+    def run(self, cmdline):                        
+        os.spawnv(os.P_DETACH, pypath, (pyfile, cmdline)) 
 
 class Top_level(LaunchMode):
     """
-    在新窗口中运行, 进程是同一个; 待讨论; 还需要GUI类信息
+    run in new window, same process
+    tbd: requires GUI class info too
     """
     def run(self, cmdline):
         assert False, 'Sorry - mode not yet implemented'
 
-
 #
-# 为这个平台挑选一个"最佳"启动器
-# 可能需要在其他地方细化这个选项
+# pick a "best" launcher for this platform
+# may need to specialize the choice elsewhere 
 #
 
 if sys.platform[:3] == 'win':
     PortableLauncher = Spawn
-else:
-    PortableLauncher = Fork
+else:                           
+    PortableLauncher = Fork 
 
 class QuietPortableLauncher(PortableLauncher):
-    def announce(self, text): pass
+    def announce(self, text): 
+        pass
 
 def selftest():
-    file = 'echo.py'
+    file = 'echo.py'                    
     input('default mode...')
     launcher = PortableLauncher(file, file)
-    launcher()          # 不阻塞
+    launcher()                                             # no block
 
     input('system mode...')
-    System(file, file)()        # 阻塞
+    System(file, file)()                                   # blocks
 
     if sys.platform[:3] == 'win':
-        input('DOS start mode...')      # 不阻塞
+        input('DOS start mode...')                         # no block
         StartArgs(file, file)()
 
 if __name__ == '__main__': selftest()

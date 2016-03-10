@@ -2,7 +2,7 @@
 
 from tkinter import *
 from tkinter.filedialog import askopenfilename
-from quitter import Quitter
+from PP4E.GUI.Tour.quitter import Quitter
 
 
 
