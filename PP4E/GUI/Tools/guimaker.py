@@ -102,9 +102,9 @@ class GuiMakerWindowMenu(GuiMaker):
 if __name__ == '__main__':
     from guimixin import GuiMixin
 
-    menuBar = [('File', 0, ['Open', 0, lambda: 0], ['Quit', 0, sys.exit]),
+    menuBar = [('File', 0, [('Open', 0, lambda: 0), ('Quit', 0, sys.exit)]),
                ('Edit', 0, [('Cut', 0, lambda: 0), ('Paste', 0, lambda: 0)])]
-    toolBar = [('Quit', sys.exit, {'side':LEFT})]
+    toolBar = [('Quit', sys.exit, {'side': LEFT})]
 
     class TestAppFrameMenu(GuiMixin, GuiMakerFrameMenu):
         def start(self):
