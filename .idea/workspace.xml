@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21ac7bc-f033-4a18-8edc-2d8332df0dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/mainloopdemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/pipe-gui1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/pipe-gui2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/pipe-nongui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/pipe_gui3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/socket-gui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/socket-nongui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/GUI/Tools/socket_stream_redirect0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/func_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/gui_main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Scripts.iml" afterPath="$PROJECT_DIR$/.idea/Scripts.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py" />
     </list>
     <ignored path="Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,14 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="func_main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/func_main.py">
+      <file leaf-file-name="Gui_Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64665127">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.31408775">
+              <caret line="43" column="88" selection-start-line="43" selection-start-column="88" selection-end-line="43" selection-end-column="88" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#285#306#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeGuiTool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/optionmenu.py" />
-        <option value="$PROJECT_DIR$/Exercise/menu_frm.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/menuDemo.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/scrolledtext.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/simpleedit.py" />
@@ -111,6 +110,8 @@
         <option value="$PROJECT_DIR$/PP4E/MyProjects/gui_main.py" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/func_main.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py" />
+        <option value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
       </list>
     </option>
   </component>
@@ -192,6 +193,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyEdit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -199,8 +240,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/joshuapu/Documents/Scripts/PP4E/Preview/make_db_classes.py" />
   </component>
@@ -247,9 +288,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tools/queuetest-gui-class.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tools/threadtools-test-classes.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/GUI/Tools/threadtools.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/MultiClipboard/func_main.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/MultiClipboard/gui_main.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/MultiClipboard/test.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -257,6 +300,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/func_main.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/gui_main.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/MyProjects/test.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -338,73 +384,25 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Gui_Main">
+    <configuration default="false" name="Gui_Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects" />
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="gui_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/gui_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="func_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/func_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -413,8 +411,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -529,18 +527,30 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gui_main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.func_main" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+    <configuration default="false" name="makeGuiTool.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.makeGuiTool.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Gui_Main" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.func_main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gui_main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.Gui_Main" />
       </list>
     </recent_temporary>
   </component>
@@ -681,53 +691,59 @@
       <option name="project" value="LOCAL" />
       <updated>1457947297688</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20160315 17:21">
+      <created>1458033667007</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1458033667007</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Test - 2016.03.15 at 14h 06m 51s.xml">
-      <configuration name="Unittests in Test" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 11h 14m 31s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test - 2016.03.15 at 14h 11m 10s.xml">
-      <configuration name="Unittests in Test" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 12h 09m 01s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Test_(1) - 2016.03.15 at 14h 09m 41s.xml">
-      <configuration name="Unittests in Test (1)" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 12h 09m 54s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 23m 25s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 12h 11m 02s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 23m 28s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 14h 22m 00s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 33m 59s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 14h 28m 09s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 34m 07s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 16h 26m 36s.xml">
+      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 34m 15s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool_(1) - 2016.03.16 at 11h 14m 58s.xml">
+      <configuration name="Unittests in makeGuiTool (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 34m 23s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool_(1) - 2016.03.16 at 14h 25m 16s.xml">
+      <configuration name="Unittests in makeGuiTool (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_guimixin - 2016.03.10 at 16h 43m 42s.xml">
-      <configuration name="Unittests in guimixin" configurationId="tests" />
+    <history-entry file="Unittests_in_makeGuiTool_(2) - 2016.03.16 at 11h 19m 10s.xml">
+      <configuration name="Unittests in makeGuiTool (2)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1267" height="745" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31804734" sideWeight="0.507498" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704142" sideWeight="0.49349523" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31804734" sideWeight="0.49250197" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31804734" sideWeight="0.49250197" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -772,7 +788,8 @@
     <MESSAGE value="20160310 17:17" />
     <MESSAGE value="20160311 17:46" />
     <MESSAGE value="20160314 17:21" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160314 17:21" />
+    <MESSAGE value="20160315 17:21" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160315 17:21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -783,7 +800,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1147,14 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47113165">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/GUI/Tour/simpleedit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7852194">
@@ -1169,16 +1178,6 @@
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="e#14#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/gui_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#41#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1198,12 +1197,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/func_main.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64665127">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.33256352">
+          <caret line="1329" column="0" selection-start-line="1329" selection-start-column="0" selection-end-line="1329" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeGuiTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31408775">
+          <caret line="43" column="88" selection-start-line="43" selection-start-column="88" selection-end-line="43" selection-end-column="88" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#285#306#0" expanded="true" />
           </folding>
         </state>
       </provider>
