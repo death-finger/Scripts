@@ -1,7 +1,7 @@
 from tkinter import *
 
 
-class MakeGui:
+class MenuTool:
     menuBar = []
     helpButton = True
 
@@ -37,6 +37,23 @@ class MakeGui:
 
     def help(self):
         raise NotImplementedError
+
+    def start(self):
+        raise NotImplementedError
+
+
+class ToolBarTool:
+    toolBar = []
+
+    def __init__(self, parent):
+        self.start()
+        self.makeToolsBar(parent)
+
+    def makeToolsBar(self, parent):
+        frame = Frame(parent)
+        frame.pack(side=BOTTOM, fill=X)
+        for (text, command, side) in self.toolBar:
+            Button(frame, text=text, command=command).pack(side=side)
 
     def start(self):
         raise NotImplementedError
