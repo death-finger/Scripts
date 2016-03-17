@@ -246,10 +246,12 @@ class TextEditorMainFrame:
         if self.find_text:
             result = self.text_main.search(self.find_text, INSERT, END)
             if result:
+                self.text_main.focus_set()
                 self.text_main.tag_remove(SEL, '0.0', END)
                 self.text_main.mark_set(INSERT, result + '+%dc' % len(self.find_text))
                 self.text_main.tag_add(SEL, result, result + '+%dc' % len(self.find_text))
                 self.text_main.see(INSERT)
+
 
     def onSearchRefind(self):
         if self.find_text:
@@ -258,19 +260,46 @@ class TextEditorMainFrame:
             self.onSearchFind()
 
     def onSearchChange(self):
+        # 创建窗口
         win = Toplevel(self.main)
         win.title('MyEdit - Change')
-        items = [('Find text:', 'Find', lambda: None),
-                 ('Change to:', 'Apply', lambda: None)]
-        for item in items:
-            frm = Frame(win)
-            frm.pack(side=TOP, fill=X, anchor=N)
-            lbl = Label(frm, text=item[0], height=1)
-            lbl.pack(side=LEFT, anchor=NW)
-            btn = Button(frm, text=item[1], command=item[2], height=1)
-            btn.pack(side=RIGHT, anchor=NE)
-            txt = Text(frm, height=1, width=20)
-            txt.pack(side=LEFT, anchor=N, fill=X)
+        lbl_find = Label(win, text='Find text:', relief=GROOVE, width=15)
+        lbl_find.grid(row=0, column=0, sticky=E)
+        txt_find = Text(win, height=1, width=25, relief=SUNKEN)
+        txt_find.grid(row=0, column=1, sticky=EW)
+        btn_find = Button(win, text='Find', relief=RAISED, width=7)
+        btn_find.config(command=lambda: self.onSearchChange_findtext(txt_find))
+        btn_find.grid(row=0, column=2, sticky=W)
+        lbl_change = Label(win, text='Find text:', relief=GROOVE, width=15)
+        lbl_change.grid(row=1, column=0, sticky=E)
+        txt_change = Text(win, height=1, width=25, relief=SUNKEN)
+        txt_change.grid(row=1, column=1, sticky=EW)
+        btn_change = Button(win, text='Apply', relief=RAISED, width=7)
+        btn_change.config(command=lambda: self.onSearchChange_changetext(txt_change))
+        btn_change.grid(row=1, column=2, sticky=W)
+        win.columnconfigure(0, weight=10)
+        win.columnconfigure(1, weight=10)
+        win.focus_set()
+        self.find_text = ''
+
+    #从输入框获取数据
+    def onSearchChange_findtext(self, parent):
+        find = parent.get(0.0, END)
+        if not find:
+            self.onSearchFind()
+        else:
+            find = find.rstrip()
+            self.onSearchFind(find)
+
+    def onSearchChange_changetext(self, parent):
+        text_change = parent.get(0.0, END)
+        if text_change and self.find_text:
+            text_change = text_change.rstrip()
+            self.text_main.delete(SEL_FIRST, SEL_LAST)
+            self.text_main.insert(INSERT, text_change)
+            self.onSearchRefind()
+
+
 
     ############################
     # 额外信息显示
@@ -286,5 +315,18 @@ class TextEditorMainFrame:
 
 
 if __name__ == '__main__':
-    TextEditorMainFrame()
+    class Test(TextEditorMainFrame):
+        def __init__(self):
+            TextEditorMainFrame.__init__(self)
+            self.file_path = r'G:\PythonScripts\PP4E-Examples-1.4\Examples\PP4E\launchmodes.py'
+            self.opentest()
+        def opentest(self):
+            self.label_path.config(text=self.file_path)
+            self.label_path.update()
+            self.text_main.delete(0.0, END)
+            self.file_work = open(self.file_path, 'r')
+            self.text_main.insert(0.0, self.file_work.read())
+            self.file_work.close()
+            self.text_main.edit_reset()
+    Test()
     mainloop()
