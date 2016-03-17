@@ -9,42 +9,69 @@
 # 导入通用组件
 
 from tkinter import *
-import os, sys
+import sys, os
 
 # 导入Menu和Toolbar所需组件
 from makeMenuToolBar import *
 from tkinter.filedialog import askopenfilename, asksaveasfilename
-from tkinter.messagebox import showinfo
+from tkinter.messagebox import showinfo, askokcancel
+from tkinter.simpledialog import askinteger, askstring
 
-helptext = """
-Need To Be Implemented!
-"""
+
+# 附加信息
 
 version = 1.00
+
+helptext = """
+MyEditor version %.2f
+
+Programmed by Joshua.
+On reference to PyEdit 2.1 from Mark Lutz.
+
+Reference:
+Programming Python 4th Edition
+Mark Lutz(Published by O'Reilly)
+All rights reserved: Mark Lutz, 2011
+978-0-596-15810-1
+""" % version
+
 
 # 主体框架
 
 class TextEditorMainFrame:
+    def __init__(self):
+        # 初始化设定
+        self.file_path = 'Welcome!'
+        self.clip_board = []
+        self.find_text = ""
 
-    menuBar = [('File', 0, [('Open...', 0, askopenfilename),
-                                     ('Save', 0, lambda: None),
-                                     ('Save As...', 5, asksaveasfilename),
-                                     ('New', 0, lambda: None),
+        self.toolBar = [('Save', self.onFileSave, LEFT),
+                        ('Cut', self.onEditCut, LEFT),
+                        ('Copy', self.onEditCopy, LEFT),
+                        ('Paste', self.onEditPaste, LEFT),
+                        ('Find', self.onSearchFind, LEFT),
+                        ('Help', self.help, RIGHT),
+                        ('Quit', sys.exit, RIGHT)]
+
+        self.menuBar = [('File', 0, [('Open...', 0, self.onFileOpen),
+                                     ('Save', 0, self.onFileSave),
+                                     ('Save As...', 5, self.onFileSaveAs),
+                                     ('New', 0, self.onFileNew),
                                      'separator',
                                      ('Quit', 0, sys.exit)]),
-                        ('Edit', 0, [('Undo', 0, lambda: None),
-                                     ('Redo', 0, lambda: None),
+                        ('Edit', 0, [('Undo', 0, self.onEditUndo),
+                                     ('Redo', 0, self.onEditRedo),
                                      'separator',
-                                     ('Cut', 0, lambda: None),
-                                     ('Copy', 0, lambda: None),
-                                     ('Paste', 0, lambda: None),
+                                     ('Cut', 0, self.onEditCut),
+                                     ('Copy', 0, self.onEditCopy),
+                                     ('Paste', 0, self.onEditPaste),
                                      'separator',
-                                     ('Delete', 0, lambda: None),
-                                     ('Select All', 7, lambda: None)]),
-                        ('Search', 0, [('Goto...', 0, lambda: None),
-                                       ('Find...', 0, lambda: None),
-                                       ('Refind', 0, lambda: None),
-                                       ('Change...', 0, lambda: None),
+                                     ('Delete', 0, self.onEditDelete),
+                                     ('Select All', 7, self.onEditSelectAll)]),
+                        ('Search', 0, [('Goto...', 0, self.onSearchGoto),
+                                       ('Find...', 0, self.onSearchFind),
+                                       ('Refind', 0, self.onSearchRefind),
+                                       ('Change...', 0, self.onSearchChange),
                                        ('Grep...', 0, lambda: None)]),
                         ('Tools', 0, [('Pick Font...', 0, lambda: None),
                                       ('Font List', 0, lambda: None),
@@ -58,9 +85,6 @@ class TextEditorMainFrame:
                                       ('Clone', 0, lambda: None),
                                       ('Run Code', 0, lambda: None)])]
 
-    def __init__(self):
-        # 初始化设定
-        self.file_path = '/Users/joshuapu/Documents/Scripts/PP4E/MyProjects/MyEdit'
         # 整体窗口
         self.main = Tk()
         self.main.title('MyEdit %.1f' % version)
@@ -72,6 +96,8 @@ class TextEditorMainFrame:
         self.makeTools(self.main)
         # 主体部分, 包含文件路径栏, Text框以及Scrollbar
         self.makeText(self.main)
+        # 切换到此窗口
+        self.main.focus_set()
 
     def makeMenu(self, parent, helpButton=TRUE):
         for (name, key, items) in self.menuBar:
@@ -99,16 +125,9 @@ class TextEditorMainFrame:
                 self.makeMenu(sub_name, item)
 
     def makeTools(self, parent):
-        toolBar = [('Save', lambda: None, LEFT),
-                   ('Cut', lambda: None, LEFT),
-                   ('Copy', lambda: None, LEFT),
-                   ('Paste', lambda: None, LEFT),
-                   ('Find', lambda: None, LEFT),
-                   ('Help', self.help, RIGHT),
-                   ('Quit', sys.exit, RIGHT)]
         frame = Frame(parent)
         frame.pack(side=BOTTOM, fill=X)
-        for (text, command, side) in toolBar:
+        for (text, command, side) in self.toolBar:
             Button(frame, text=text, command=command).pack(side=side)
 
     def makeText(self, parent):
@@ -126,8 +145,11 @@ class TextEditorMainFrame:
         text_main_xscroll = Scrollbar(frame_text, command=text_main.xview, orient=HORIZONTAL)
         text_main_xscroll.pack(side=BOTTOM, fill=X)
         text_main.config(xscrollcommand=text_main_xscroll.set)
-        text_main.config(wrap=NONE)
+        text_main.config(wrap=NONE, autoseparators=True, undo=True, maxundo=50)
         text_main.pack(side=TOP, expand=YES, fill=BOTH)
+        self.frame_text = frame_text
+        self.label_path = label_path
+        self.text_main = text_main
 
 
 
@@ -136,8 +158,119 @@ class TextEditorMainFrame:
     # 菜单按钮功能设定
     ############################
     def onFileOpen(self):
-        self.file_path = askopenfilename()
+        select_path = askopenfilename()
+        if not select_path:
+            return
+        elif select_path == self.file_path:
+            if not (self.text_main.edit_modified() and
+                    askokcancel('MyEdit',
+                                'You have modified this file, discard changes and reopen it?')):
+                return
+        else:
+            self.file_path = select_path
+            self.label_path.config(text=self.file_path)
+            self.label_path.update()
+            self.text_main.delete(0.0, END)
+            self.file_work = open(self.file_path, 'r')
+            self.text_main.insert(0.0, self.file_work.read())
+            self.file_work.close()
+            self.text_main.edit_reset()
 
+    def onFileSave(self):
+        text_to_write = self.text_main.get(0.0, END)
+        file_work = open(self.file_path, 'w')
+        file_work.write(text_to_write)
+        file_work.close()
+
+    def onFileSaveAs(self):
+        text_to_write = self.text_main.get(0.0, END)
+        file_name = asksaveasfilename()
+        with open(file_name, 'w') as file:
+            file.write(text_to_write)
+
+    def onFileNew(self):
+        if self.text_main.edit_modified():
+            if askokcancel('MyEdit', 'Discard all changes?'):
+                self.text_main.delete(0.0, END)
+                self.text_main.edit_reset()
+
+    def onEditUndo(self):
+        self.text_main.edit_undo()
+
+    def onEditRedo(self):
+        self.text_main.edit_redo()
+
+    def onEditCut(self):
+        try:
+            text_select = self.text_main.get(SEL_FIRST, SEL_LAST)
+            self.text_main.delete(SEL_FIRST, SEL_LAST)
+            self.clip_board = [0, text_select]
+        except TclError:
+            pass
+
+    def onEditPaste(self):
+        try:
+            if self.clip_board[0] == 0:
+                self.text_main.insert(INSERT, self.clip_board[1])
+                self.clip_board = []
+            elif self.clip_board[0] == 1:
+                self.text_main.insert(INSERT, self.clip_board[1])
+        except IndexError:
+            pass
+
+    def onEditCopy(self):
+        try:
+            text_select = self.text_main.get(SEL_FIRST, SEL_LAST)
+            self.clip_board = [1, text_select]
+        except TclError:
+            pass
+
+    def onEditDelete(self):
+        try:
+            self.text_main.delete(SEL_FIRST, SEL_LAST)
+        except TclError:
+            pass
+
+    def onEditSelectAll(self):
+        self.text_main.tag_add(SEL, 0.0, END)
+
+    def onSearchGoto(self):
+        line_num = askinteger('MyEdit', 'Enter line number:')
+        self.text_main.tag_remove(SEL, '0.0', END)
+        self.text_main.mark_set(INSERT, '%d.0' % line_num)
+        self.text_main.see(INSERT)
+        self.text_main.tag_add(SEL, '%d.0' % line_num, '%d.end' % line_num)
+
+    def onSearchFind(self, text=None):
+        self.find_text = text or askstring('MyEdit', 'Input the context:')
+        if self.find_text:
+            result = self.text_main.search(self.find_text, INSERT, END)
+            if result:
+                self.text_main.tag_remove(SEL, '0.0', END)
+                self.text_main.mark_set(INSERT, result + '+%dc' % len(self.find_text))
+                self.text_main.tag_add(SEL, result, result + '+%dc' % len(self.find_text))
+                self.text_main.see(INSERT)
+
+    def onSearchRefind(self):
+        if self.find_text:
+            self.onSearchFind(text=self.find_text)
+        else:
+            self.onSearchFind()
+
+    def onSearchChange(self):
+        win = Toplevel(self.main)
+        win.title('MyEdit - Change')
+        items = [('Find text:', 'Find', lambda: None),
+                 ('Change to:', 'Apply', lambda: None)]
+        for item in items:
+            frm = Frame(win)
+            frm.pack(side=TOP, fill=X, anchor=N)
+            lbl = Label(frm, text=item[0], height=1)
+            lbl.pack(side=LEFT, anchor=NW)
+            btn = Button(frm, text=item[1], command=item[2], height=1)
+            btn.pack(side=RIGHT, anchor=NE)
+            txt = Text(frm, height=1, width=20)
+            txt.pack(side=LEFT, anchor=N, fill=X)
 
     ############################
     # 额外信息显示
@@ -145,6 +278,11 @@ class TextEditorMainFrame:
 
     def help(self):
         showinfo('Help Info', helptext)
+
+
+
+
+
 
 
 if __name__ == '__main__':
