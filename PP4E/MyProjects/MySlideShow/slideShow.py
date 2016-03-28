@@ -113,11 +113,7 @@ class SlideShow(Frame):
     def onDraw(self):
         try:
             img = Image.open(self.img_save[self.img_onScreen][0])
-            if sys.platform[:3] != 'win':
-                adjuster = (72, 26)
-            else:
-                adjuster = (51, 27)
-            size = (int(self.winfo_width()-adjuster[0]), int(self.winfo_height()-adjuster[1]))
+            size = (int(self.winfo_width()-self.adjuster[0]), int(self.winfo_height()-self.adjuster[1]))
             print(size)
             if size[0]-1 <= 0 or size[1]-1 <= 0:
                 size = 720, 480
@@ -153,6 +149,10 @@ class SlideShow(Frame):
                           ('Help', None),
                           ]
         self.init_start = [('Start', self.onStart), ('Stop', self.onStop)]
+        if sys.platform[:3] != 'win':
+            self.adjuster = (72, 26)
+        else:
+            self.adjuster = (51, 27)
 
 
 if __name__ == '__main__':
