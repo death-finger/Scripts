@@ -20,8 +20,9 @@ class SlideShow(Frame):
         Frame.__init__(self, parent)
         self.pack(side=TOP , expand=YES, fill=BOTH)
         self.start()
-        self.scl_pic, self.btn_start = self.makeWidgets()
         self.canv_lab, self.lab_path, self.canv = self.makeCanvas()
+        self.scl_pic, self.btn_start = self.makeWidgets()
+        self.makeThumbs()
 
         self.test()
 
@@ -31,7 +32,7 @@ class SlideShow(Frame):
 
     def makeWidgets(self):
         labfrm = LabelFrame(self, text='Menu', labelanchor=SW)
-        labfrm.pack(side=LEFT, anchor=NW)
+        labfrm.pack(side=TOP, anchor=N)
         row=1
         for item in self.init_btns:
             if type(item) == type(()):
@@ -43,7 +44,7 @@ class SlideShow(Frame):
                            relief=GROOVE, command=self.init_start[0][1])
         btn_start.grid(row=0, column=0, sticky=W)
         if self.init_btns[-1] == 'Scale':
-            scl = Scale(labfrm, from_=0, to=3000, length=150, resolution=100)
+            scl = Scale(labfrm, from_=0, to=3, length=150, resolution=0.1)
             scl.config(font=('times', 8, 'normal'))
             scl.grid(row=0, column=1, rowspan=row+1)
             return scl, btn_start
@@ -53,11 +54,15 @@ class SlideShow(Frame):
         lab = Label(self, text='Welcome to SlideShow', relief=FLAT, bg='#CBCBCB')
         lab.pack(side=TOP, anchor=N, expand=YES, fill=X)
         canv = Canvas(self)
-        canv.pack(side=TOP, anchor=NW, expand=YES, fill=BOTH)
+        canv.pack(side=LEFT, anchor=N, expand=YES, fill=BOTH)
         canv_lab = Label(canv, relief=FLAT)
         canv.create_window(0, 0, anchor=NW, window=canv_lab)
         canv_lab.pack(side=TOP, anchor=NW, fill=BOTH)
         return canv_lab, lab, canv
+
+    def makeThumbs(self):
+        Scale(self, from_=0, to=len(self.img_save), resolution=0).pack(side=RIGHT, fill=Y)
+
 
 ######################################################
 # Button Actions
@@ -89,7 +94,8 @@ class SlideShow(Frame):
 
     def onQuit(self):
         if askyesno('MySlideShow', 'Confirm to quit?'):
-            sys.exit()
+            self.onStop()
+            self.quit()
 
     def test(self):
         pass
@@ -113,11 +119,11 @@ class SlideShow(Frame):
     def onDraw(self):
         try:
             img = Image.open(self.img_save[self.img_onScreen][0])
-            size = (int(self.winfo_width()-self.adjuster[0]), int(self.winfo_height()-self.adjuster[1]))
-            print(size)
-            if size[0]-1 <= 0 or size[1]-1 <= 0:
-                size = 720, 480
-                print(size)
+            size_canv = (int(self.winfo_width()-self.adjuster[0]), int(self.winfo_height()-self.adjuster[1]))
+            if size_canv[0]-1 <= 0 or size_canv[1]-1 <= 0:
+                size_canv = 720, 480
+            scale = img.size[0]/size_canv[0]
+            size = size_canv[0], int(img.size[1] / scale)
             img_resize = img.resize(size, Image.ANTIALIAS)
             img_obj = PhotoImage(img_resize)
             self.img_obj = img_obj
@@ -131,6 +137,10 @@ class SlideShow(Frame):
     def onStartShow(self, msecs=250):
         if self.loop:
             self.onDraw()
+            try:
+                msecs = self.msecs
+            except:
+                msecs = msecs
             self.task = self.canv.after(msecs, self.onStartShow)
 
     def onStopShow(self):
@@ -160,7 +170,15 @@ if __name__ == '__main__':
         def start(self):
             self.init_btns = [('Open', self.onOpen),('Quit', self.onQuit),('Help', None)]
             self.init_start = [('Start', self.onStart), ('Stop', self.onStop)]
-            self.dir = '/Users/joshuapu/Documents/wallpaper' if sys.platform[:3] != 'win' else r'D:\Theme\wallpaper'
+            for path in ('/Users/joshuapu/Documents/wallpaper',
+                         r'D:\Theme\wallpaper',
+                         'G:\WallPaper'):
+                if os.path.exists(path):
+                    self.dir = path
+            if sys.platform[:3] != 'win':
+                self.adjuster = (72, 26)
+            else:
+                self.adjuster = (51, 27)
 
         def onQuit(self):
             self.quit()
