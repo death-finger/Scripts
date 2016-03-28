@@ -1,0 +1,26 @@
+
+    def onView(self, file):
+        self.onView_save = []
+        win = Toplevel(self.main)
+        win.title('MyPhoto - %s' % file)
+        canv = makeScrolledCanvas(win)
+        img = Image.open(os.path.join(self.dir_path, file))
+        img_obj = PhotoImage(img)
+        if img.size[0] < 720:
+            canv.config(width=img.size[0])
+        if img.size[1] < 480:
+            canv.config(height=img.size[1])
+        canv.config(scrollregion=(0, 0, img.size[0], img.size[1]))
+        canv.create_image(0, 0, anchor=NW, image=img_obj)
+        self.onView_save.append(img_obj)
+        canv.bind('<MouseWheel>', lambda: self.onMouseZoom(img, img.size()))
+
+    def onMouseZoom(self, img, origin):
+        if sys.platform[:3] == 'win':
+            scale = 1200
+        else:
+            scale = 10
+        size = origin[0] * (1 + event.delta/scale), origin[0] * (1 + event.delta/scale)
+        img.resize(size)
+        img_obj = PhotoImage(img)
+        return img_obj
