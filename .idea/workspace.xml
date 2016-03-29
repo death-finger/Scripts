@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21ac7bc-f033-4a18-8edc-2d8332df0dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShowPlus.py" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Scripts.iml" afterPath="$PROJECT_DIR$/.idea/Scripts.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShowTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/temp.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py" />
     </list>
     <ignored path="Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +27,24 @@
     <favorites_list name="Scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="slideShow.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MySlideShowPlus.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slideShow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73913044">
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
               <folding>
                 <element signature="e#24#44#0" expanded="true" />
               </folding>
@@ -39,11 +52,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySlideShowPlus.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py">
+      <file leaf-file-name="Gui_Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.63386726">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="378" column="40" selection-start-line="378" selection-start-column="40" selection-end-line="378" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/temp.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPhoto.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyPhoto/MyPhoto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="200" column="53" selection-start-line="200" selection-start-column="53" selection-end-line="200" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -52,6 +85,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -65,8 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/alarm.py" />
-        <option value="$PROJECT_DIR$/PP4E/GUI/Tour/alarm-withdraw.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/canvasDraw_tags.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/canvasDraw_tags_after.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/Tour/canvasDraw_tags_thread.py" />
@@ -114,12 +146,15 @@
         <option value="$PROJECT_DIR$/PP4E/GUI/PIL/pyphoto1.py" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeMenuToolBar.py" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShowPlus.py" />
+        <option value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/test.py" />
+        <option value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/temp.txt" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="26" />
     <option name="y" value="23" />
     <option name="width" value="1267" />
     <option name="height" value="745" />
@@ -238,14 +273,58 @@
               <option name="myItemId" value="MyProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPhoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyEdit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/joshuapu/Documents/Scripts/PP4E/Preview/make_db_classes.py" />
   </component>
@@ -276,7 +355,7 @@
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -398,6 +477,23 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="MyEdit" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="MySlideShowPlus" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,8 +511,27 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.MySlideShowPlus" />
+    <configuration default="false" name="slideShow" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.MyEdit" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MySlideShowPlus" />
+      <item index="2" class="java.lang.String" itemvalue="Python.slideShow" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -586,12 +701,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459153175593</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="20160328 1700">
+      <created>1459155599866</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1459155599866</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 12h 09m 01s.xml">
-      <configuration name="Unittests in makeGuiTool" configurationId="tests" />
+    <history-entry file="Unittests_in_Gui_Main - 2016.03.29 at 14h 52m 47s.xml">
+      <configuration name="Unittests in Gui_Main" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_makeGuiTool - 2016.03.16 at 12h 09m 54s.xml">
       <configuration name="Unittests in makeGuiTool" configurationId="tests" />
@@ -622,12 +743,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1267" height="745" extended-state="0" />
+    <frame x="26" y="23" width="1267" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31804734" sideWeight="0.5146014" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.49723756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704142" sideWeight="0.49349523" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31213018" sideWeight="0.4853986" order="3" side_tool="false" content_ui="tabs" />
@@ -641,7 +763,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.49723756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -657,7 +778,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20160217" />
     <MESSAGE value="20160218 16:26" />
     <MESSAGE value="20160221 12:59" />
     <MESSAGE value="20160222 14:17" />
@@ -682,32 +802,19 @@
     <MESSAGE value="20160317 17:23" />
     <MESSAGE value="20160321 17:19" />
     <MESSAGE value="20160328 16:19" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160328 16:19" />
+    <MESSAGE value="20160328 1700" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160328 1700" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="89" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PP4E/GUI/ShellGui/unpacker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70669746">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/GUI/ShellGui/packer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35334873">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/GUI/ShellGui/packdlg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -876,13 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6080247">
-          <caret line="509" column="20" selection-start-line="509" selection-start-column="20" selection-end-line="509" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/GUI/TextEditor/textEditorNoConsole.pyw">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1002,21 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33245382">
-          <caret line="1543" column="0" selection-start-line="1543" selection-start-column="0" selection-end-line="1543" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyPhoto/MyPhoto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/GUI/PIL/pyphoto1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.713626">
@@ -1038,21 +1123,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py">
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShowTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1556064">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#24#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyPhoto/MyPhoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="200" column="53" selection-start-line="200" selection-start-column="53" selection-end-line="200" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/temp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33245382">
+          <caret line="1548" column="0" selection-start-line="1548" selection-start-column="0" selection-end-line="1548" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="378" column="40" selection-start-line="378" selection-start-column="40" selection-end-line="378" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/MySlideShowPlus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.63386726">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73913044">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="e#24#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

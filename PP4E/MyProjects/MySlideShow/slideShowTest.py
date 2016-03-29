@@ -7,8 +7,7 @@ from tkinter.messagebox import askyesno
 from PIL import Image
 from PIL.ImageTk import PhotoImage
 
-
-class SlideShow(Tk):
+class SlideShow(Frame):
     init_btns = []
     init_start = []
     start_stu = True
@@ -17,27 +16,23 @@ class SlideShow(Tk):
     img_obj = None
     img_onScreen = 0
 
-    def __init__(self):
-        Tk.__init__(self)
-        self.title('MySlideShow V2.0')
-        self.minsize(width=1366, height=768)
-        self.maxsize(width=1366, height=768)
-
-        self.frm = Frame(self)
-        self.frm.pack(side=TOP, expand=YES, fill=BOTH)
-        self.frm_right = Frame(self.frm)
-        self.frm_right.pack(side=RIGHT, anchor=NE, fill=Y)
+    def __init__(self, parent=None):
+        Frame.__init__(self, parent)
+        self.pack(side=TOP , expand=YES, fill=BOTH)
         self.start()
-        self.canv_lab, self.lab_path, self.canv = self.makeCanvas(self.frm)
-        self.scl_pic, self.btn_start = self.makeWidgets(self.frm_right)
+        self.canv_lab, self.lab_path, self.canv = self.makeCanvas()
+        self.scl_pic, self.btn_start = self.makeWidgets()
+        self.makeThumbs()
+
+        self.test()
 
 ######################################################
 # Main Frame
 ######################################################
 
-    def makeWidgets(self, parent):
-        labfrm = LabelFrame(parent, text='Menu', labelanchor=SW)
-        labfrm.grid(row=0, column=0, columnspan=3, sticky=E)
+    def makeWidgets(self):
+        labfrm = LabelFrame(self, text='Menu', labelanchor=SW)
+        labfrm.pack(side=TOP, anchor=N)
         row=1
         for item in self.init_btns:
             if type(item) == type(()):
@@ -49,21 +44,24 @@ class SlideShow(Tk):
                            relief=GROOVE, command=self.init_start[0][1])
         btn_start.grid(row=0, column=0, sticky=W)
         if self.init_btns[-1] == 'Scale':
-            scl = Scale(labfrm, from_=0.5, to=3, length=150, resolution=0.1, width=7)
+            scl = Scale(labfrm, from_=0, to=3, length=150, resolution=0.1)
             scl.config(font=('times', 8, 'normal'))
             scl.grid(row=0, column=1, rowspan=row+1)
             return scl, btn_start
         return None, btn_start
 
-    def makeCanvas(self, parent):
-        lab = Label(parent, text='Welcome to SlideShow', relief=FLAT, bg='#CBCBCB')
+    def makeCanvas(self):
+        lab = Label(self, text='Welcome to SlideShow', relief=FLAT, bg='#CBCBCB')
         lab.pack(side=TOP, anchor=N, expand=YES, fill=X)
-        canv = Canvas(parent)
+        canv = Canvas(self)
         canv.pack(side=LEFT, anchor=N, expand=YES, fill=BOTH)
         canv_lab = Label(canv, relief=FLAT)
         canv.create_window(0, 0, anchor=NW, window=canv_lab)
         canv_lab.pack(side=TOP, anchor=NW, fill=BOTH)
         return canv_lab, lab, canv
+
+    def makeThumbs(self):
+        Scale(self, from_=0, to=len(self.img_save), resolution=0).pack(side=RIGHT, fill=Y)
 
 
 ######################################################
@@ -168,7 +166,7 @@ class SlideShow(Tk):
 
 
 if __name__ == '__main__':
-    class mainTest(SlideShow):
+    class Test(SlideShow):
         def start(self):
             self.init_btns = [('Open', self.onOpen),('Quit', self.onQuit),('Help', None)]
             self.init_start = [('Start', self.onStart), ('Stop', self.onStop)]
@@ -190,5 +188,8 @@ if __name__ == '__main__':
             self.onOpenScan()
             self.onDraw()
 
-    mainTest()
+    root = Tk()
+    root.minsize(width=720, height=480)
+    root.maxsize(width=root.winfo_screenwidth(), height=root.winfo_screenheight())
+    Test(root)
     mainloop()

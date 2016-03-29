@@ -1,0 +1,19 @@
+def makeWidgets(self, parent):
+        labfrm = LabelFrame(parent, text='Menu', labelanchor=SW)
+        labfrm.pack(side=TOP, anchor=N)
+        row=1
+        for item in self.init_btns:
+            if type(item) == type(()):
+                btn = Button(labfrm, text=item[0], command=item[1], relief=GROOVE)
+                btn.config(width=4, height=1)
+                btn.grid(row=row, column=0, sticky=W)
+                row += 1
+        btn_start = Button(labfrm, text=self.init_start[0][0], width=4, height=1,
+                           relief=GROOVE, command=self.init_start[0][1])
+        btn_start.grid(row=0, column=0, sticky=W)
+        if self.init_btns[-1] == 'Scale':
+            scl = Scale(labfrm, from_=0.5, to=3, length=150, resolution=0.1)
+            scl.config(font=('times', 8, 'normal'))
+            scl.grid(row=0, column=1, rowspan=row+1)
+            return scl, btn_start
+        return None, btn_start
