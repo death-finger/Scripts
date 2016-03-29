@@ -64,9 +64,9 @@ class MySlideShowPlus(SlideShow):
             self.img_onScreen = 0
             self.img_save = []
             self.onOpenScan()
+            self.drawCanvThumb()
             if self.img_save:
                 self.onDraw()
-                self.drawCanvThumb()
             else:
                 return
         else:
@@ -98,7 +98,7 @@ class MySlideShowPlus(SlideShow):
         row = 0
         for file, img in self.pic_thumbs:
             img_obj = PhotoImage(img)
-            self.canv.create_image(0,row*40, anchor=NW, image=img_obj)
+            self.canv_thumb.create_image(0,row*40, anchor=NW, image=img_obj)
             self.img_obj_thumbs.append(img_obj)
             row += 1
         self.canv_thumb.update()
