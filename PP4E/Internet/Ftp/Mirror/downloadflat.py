@@ -44,3 +44,20 @@ for remotename in remotefiles:
     print('as', maintype, encoding or '')
 
     if maintype == 'text' and encoding == None:
+        localfile = open(localpath, 'w', encoding=connection.encoding)
+        callback = lambda line: localfile.write(line + '\n')
+        connection.retrlines('RETR ' + remotename, callback)
+
+    else:
+        localfile = open(localpath, 'wb')
+        connection.retrbinary('RETR ' + remotename, localfile.write)
+
+    localfile.close()
+    count += 1
+
+connection.quit()
+print('Done:', count, 'files downloaded')
+
+
+
+
