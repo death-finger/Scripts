@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21ac7bc-f033-4a18-8edc-2d8332df0dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/PyFtpGui.pyw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/getfile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/getfilegui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/getone-modular.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/getone-urllib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/putfile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/putfilegui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/sousa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/cleanall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat_modular.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/ftptools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadflat_modular.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Scripts.iws" />
@@ -43,14 +39,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="downloadflat.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py">
+      <file leaf-file-name="uploadall.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-              <folding>
-                <element signature="e#38#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleanall.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/cleanall.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,11 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
-        <option value="$PROJECT_DIR$/PP4E/GUI/TextEditor/textConfig.py" />
-        <option value="$PROJECT_DIR$/PP4E/GUI/TextEditor/textEditorNoConsole.pyw" />
-        <option value="$PROJECT_DIR$/PP4E/GUI/TextEditor/pyedit.pyw" />
-        <option value="$PROJECT_DIR$/PP4E/GUI/TextEditor/guimaker.py" />
         <option value="$PROJECT_DIR$/PP4E/GUI/TextEditor/textEditor.py" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MyPhoto/temp.txt" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MyPhoto/MyPhoto.py" />
@@ -123,6 +122,11 @@
         <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/putfilegui.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/PyFtpGui.pyw" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat_modular.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadflat_modular.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/ftptools.py" />
+        <option value="$PROJECT_DIR$/PP4E/uploadall.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/cleanall.py" />
       </list>
     </option>
   </component>
@@ -278,7 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP4E/MyProjects/MyEdit/Gui_Main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/joshuapu/Documents/Scripts/PP4E/Preview/make_db_classes.py" />
@@ -292,18 +296,18 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PP4E/GUI/PIL" />
-      <recent name="$PROJECT_DIR$/PP4E/System/Streams" />
-      <recent name="$PROJECT_DIR$/PP4E/Preview" />
-      <recent name="$PROJECT_DIR$/PP4E/Preview/cgi-bin" />
-      <recent name="$PROJECT_DIR$/Exercise" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PP4E/GUI/TextEditor" />
       <recent name="$PROJECT_DIR$/PP4E/GUI/Tools" />
       <recent name="$PROJECT_DIR$/PP4E" />
       <recent name="$PROJECT_DIR$/Exercise" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror" />
+      <recent name="$PROJECT_DIR$/PP4E/GUI/PIL" />
+      <recent name="$PROJECT_DIR$/PP4E/System/Streams" />
+      <recent name="$PROJECT_DIR$/PP4E/Preview" />
+      <recent name="$PROJECT_DIR$/PP4E/Preview/cgi-bin" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -320,6 +324,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -327,8 +332,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Internet/Ftp/getone.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Internet/Sockets/getfilegui.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadflat.py</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -417,58 +421,7 @@
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
-  <component name="RunManager" selected="Python.PyFtpGui.pyw">
-    <configuration default="false" name="putfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/Internet/Ftp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Ftp/putfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sousa" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/sousa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="getfilegui" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/Internet/Ftp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Scripts" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Ftp/getfilegui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.uploadall">
     <configuration default="false" name="putfilegui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -499,6 +452,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Ftp/PyFtpGui.pyw" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="downloadflat_modular" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat_modular.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ftptools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/ftptools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="uploadall" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -641,19 +645,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.putfile" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sousa" />
-      <item index="2" class="java.lang.String" itemvalue="Python.getfilegui" />
-      <item index="3" class="java.lang.String" itemvalue="Python.putfilegui" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PyFtpGui.pyw" />
+      <item index="0" class="java.lang.String" itemvalue="Python.putfilegui" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PyFtpGui.pyw" />
+      <item index="2" class="java.lang.String" itemvalue="Python.downloadflat_modular" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ftptools" />
+      <item index="4" class="java.lang.String" itemvalue="Python.uploadall" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PyFtpGui.pyw" />
-        <item index="1" class="java.lang.String" itemvalue="Python.putfilegui" />
-        <item index="2" class="java.lang.String" itemvalue="Python.getfilegui" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sousa" />
-        <item index="4" class="java.lang.String" itemvalue="Python.putfile" />
+        <item index="0" class="java.lang.String" itemvalue="Python.uploadall" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ftptools" />
+        <item index="2" class="java.lang.String" itemvalue="Python.downloadflat_modular" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PyFtpGui.pyw" />
+        <item index="4" class="java.lang.String" itemvalue="Python.putfilegui" />
       </list>
     </recent_temporary>
   </component>
@@ -923,7 +927,14 @@
       <option name="project" value="LOCAL" />
       <updated>1459850073748</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="20160406 1755&#10;">
+      <created>1459936519997</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1459936519997</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -994,7 +1005,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20160224 17:13" />
     <MESSAGE value="20160225 17:19" />
     <MESSAGE value="20160228 21:41" />
     <MESSAGE value="20160229 17:13" />
@@ -1019,7 +1029,8 @@
     <MESSAGE value="20160330 1733" />
     <MESSAGE value="20160331 1731&#10;" />
     <MESSAGE value="20160405 1754&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160405 1754&#10;" />
+    <MESSAGE value="20160406 1755&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160406 1755&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1031,41 +1042,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PP4E/GUI/PIL/pyphoto1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyEdit/makeMenuToolBar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/slideShowTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MyPhoto/MyPhoto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="200" column="53" selection-start-line="200" selection-start-column="53" selection-end-line="200" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/MyProjects/MySlideShow/temp.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1346,7 +1322,7 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#38#56#0" expanded="true" />
+            <element signature="e#38#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1410,7 +1386,7 @@
         <state relative-caret-position="131">
           <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding>
-            <element signature="e#13#45#0" expanded="true" />
+            <element signature="e#13#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1420,7 +1396,7 @@
         <state relative-caret-position="238">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="e#13#41#0" expanded="true" />
+            <element signature="e#13#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1433,6 +1409,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat_modular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="e#33#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadflat_modular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#33#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/ftptools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+          <folding>
+            <element signature="e#33#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1441,13 +1455,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py">
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding>
-            <element signature="e#38#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/cleanall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
