@@ -6,14 +6,15 @@ popusername = 'death_finger@sina.com'
 smtpservername = 'smtp.sina.com'
 
 myaddress = 'death_finger@sina.com'
-mysignature = ('Best Regrads,\nJoshua Pu')
+mysignature = ('Best Regards,\nJoshua Pu')
 
-smtpuser = None
-smtppasswdfile = ''
-poppasswdfile = ''
+smtpuser = 'death_finger@sina.com'
+smtppasswdfile = 'Bagakira@881229'
 
-sentmailfile = r'./sentmail.txt'
-savemailfile = r'./savemail.txt'
+poppasswdfile = 'Bagakira@881229'
+
+sentmailfile = './sentmail.txt'
+savemailfile = './savemail.txt'
 
 fetchEncoding = 'utf8'
 headersEncodeTo = None

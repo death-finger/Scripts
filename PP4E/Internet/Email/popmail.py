@@ -1,15 +1,15 @@
 #!/usr/local/bin/python
 
-#e.g. 13-18
+# e.g. 13-18
 
 import poplib, getpass, sys, mailconfig
-
+import imaplib
 
 mailserver = mailconfig.popservername
 mailuser = mailconfig.popusername
 mailpasswd = getpass.getpass('Password for %s:' % mailserver)
 
-print('connecting...')
+print('Connecting...')
 server = poplib.POP3(mailserver)
 server.user(mailuser)
 server.pass_(mailpasswd)
@@ -17,19 +17,17 @@ server.pass_(mailpasswd)
 try:
     print(server.getwelcome())
     msgCount, msgBytes = server.stat()
-    print(msgCount, 'Mails; Total', msgBytes, 'bytes')
+    print('There are', msgCount, 'mails in Total', msgBytes, 'bytes.')
     print(server.list())
     print('-'*80)
-    input('[Press Enter]')
+    input('[Press Enter to continue]')
 
     for i in range(msgCount):
         hdr, message, octets = server.retr(i+1)
-        for line in message:
-            print(line.decode())
-        print('-'*80)
+        for line in message: print(line.decode())
+        print('-' * 80)
         if i < msgCount - 1:
-            input('[Press Enter]')
+            input('[Press Enter to show next]')
 finally:
     server.quit()
 print('Bye.')
-
