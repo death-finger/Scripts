@@ -4,7 +4,8 @@ import poplib, smtplib, email.utils
 import mailconfig
 from email.parser import Parser
 from email.message import Message
-fetchEncoding = mailconfig.fetchEncoding
+from email.header import decode_header
+fetchEncoding = 'UTF-8'
 
 
 def decodeToUnicode(messageBytes, fetchEncoding=fetchEncoding):
@@ -92,7 +93,16 @@ def showindex(msgList):
         print('%d:\t%d bytes' % (count, len(msgtext)))
         for hdr in ('From', 'To', 'Data', 'Subject'):
             try:
-                print('\t%-8s=>%s' % (hdr, msghdrs[hdr]))
+                try:
+                    item = decode_header(msghdrs[hdr])
+                    bin, enc = item[0]
+                except TypeError:
+                    result = msghdrs[hdr]
+                try:
+                    result = bin.decode(enc)
+                except (AttributeError, TypeError):
+                    result = bin
+                print('\t%-8s=>%s' % (hdr, result))
             except KeyError:
                 print('\t%-8s=>(unknown)' % hdr)
         if count % 5 == 0:
@@ -103,9 +113,11 @@ def showmessage(i, msgList):
         print('-' * 79)
         msg = Parser().parsestr(msgList[i-1])
         content = msg.get_payload()
-        if isinstance(content, str):
-            content = content.rstrip() + '\n'
-        print(content)
+        if type(content) == type([]) and len(content) > 1:
+            for i in range(len(content)):
+                print(content[i], end='\n')
+        else:
+            print(content)
         print('-' * 79)
     else:
         print('Bad msg number')
