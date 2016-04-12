@@ -35,3 +35,45 @@ def fix_text_required(encodingname):
 
     charset = Charset(encodingname)
     bodyenc = charset.body_encoding
+    return bodyenc in (None, QP)
+
+class MailSender(MailTool):
+    def __init__(self, smtpserver=None, tracesize=256):
+        self.smtpServerName = smtpserver or mailconfig.smtpservername
+        self.tracesize = tracesize
+
+    def sendMessage(self, From, To, Subj, extrahdrs, bodytext, attaches,
+                    saveMailSeparator=(('='*80)+'PY\n'),
+                    bodytextEncoding='us-ascii', attachesEncodings=None):
+        if fix_text_required(bodytextEncoding):
+            if not isinstance(bodytext, str):
+                bodytext = bodytext.decode(bodytextEncoding)
+        else:
+            if not isinstance(bodytext, bytes):
+                bodytext = bodytext.encode(bodytextEncoding)
+
+        # 创建基本消息
+        if not attaches:
+            msg = Message()
+            msg.set_payload(bodytext, charset=bodytextEncoding)
+        else:
+            msg = MIMEMultipart()
+            self.addAttachments(msg, bodytext, attaches,
+                                bodytextEncoding, attachesEncodings)
+
+        hdrenc = mailconfig.headersEncodeTo or 'utf-8'
+        Subj = self.encodeHeader(Subj, hdrenc)
+        From = self.encodeAddrHeader(From, hdrenc)
+        To = [self.encodeAddrHeader(T, hdrenc) for T in To]
+        Tos = ';'.join(To)
+
+        # 将题头添加至基本消息
+        msg['From'] = From
+        msg['To'] = Tos
+        msg['Subject'] = Subj
+        msg['Date'] = email.utils.formatdate()
+        recip = To
+        for name, value in extrahdrs:
+            if value:
+                if name.lower() not in ['cc', 'bcc']:
+                    value = self.encodeHeader(value, hdrenc)
