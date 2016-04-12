@@ -5,6 +5,7 @@ import mailconfig
 from email.parser import Parser
 from email.message import Message
 from email.header import decode_header
+from email.utils import parseaddr, formataddr
 fetchEncoding = 'UTF-8'
 
 
@@ -19,7 +20,7 @@ def inputmessage():
     import sys
     From = input('From: ').strip
     To = input('To: ').strip
-    To = splitaddrs(To)
+    #To = splitaddrs(To)
     Subj = input('Subject: ').strip()
     print('Type message text, end with line="EOF"')
     text = ''
@@ -35,10 +36,11 @@ def sendmessage():
     msg = Message()
     msg['From'] = From
     msg['To'] = To
-    msg['Subject'] = Subj,
+    msg['Subject'] = Subj
     msg['Data'] = email.utils.formatdate()
     msg.set_payload(text)
     server = smtplib.SMTP(mailconfig.smtpservername)
+    server.login(mailconfig.smtpuser, mailconfig.smtppasswdfile)
     try:
         failed = server.sendmail(From, To, str(msg))
     except:
@@ -93,18 +95,20 @@ def showindex(msgList):
         print('%d:\t%d bytes' % (count, len(msgtext)))
         for hdr in ('From', 'To', 'Data', 'Subject'):
             try:
-                try:
-                    item = decode_header(msghdrs[hdr])
-                    bin, enc = item[0]
-                except TypeError:
+                result = None
+                if hdr in ('From', 'To'):
+                    name, addr = parseaddr(msghdrs[hdr])
+                    txt, enc = decode_header(name)[0]
+                    if enc:
+                        name = txt.decode(enc)
+                    result = name + ' <' + addr + '>'
+                else:
                     result = msghdrs[hdr]
-                try:
-                    result = bin.decode(enc)
-                except (AttributeError, TypeError):
-                    result = bin
-                print('\t%-8s=>%s' % (hdr, result))
+                print('%-8s:\t%s' % (hdr, result))
             except KeyError:
                 print('\t%-8s=>(unknown)' % hdr)
+            finally:
+                pass
         if count % 5 == 0:
             input('[Press Enter to continue...]')
 
