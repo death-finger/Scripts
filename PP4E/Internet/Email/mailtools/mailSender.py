@@ -77,3 +77,68 @@ class MailSender(MailTool):
             if value:
                 if name.lower() not in ['cc', 'bcc']:
                     value = self.encodeHeader(value, hdrenc)
+                    msg[name] = value
+                else:
+                    value = [self.encodeAddrHeader(V, hdrenc) for V in value]
+                    recip += value
+                    recip += value
+                if name.lower() != 'bcc':
+                    msg[name] = ';'.join(value)
+
+        recip = list(set(recip))
+        fullText = msg.as_string()
+
+        self.trace('Sending to...' + str(recip))
+        self.trace(fullText[:self.tracesize])
+        server = smtplib.SMTP(self.smtpServerName)
+        self.getPassword()
+        self.authenticateServer(server)
+        try:
+            failed = server.sendmail(From, recip, fullText)
+        except:
+            server.close()
+            raise
+        else:
+            server.quit()
+
+        self.saveSentMessage(fullText, saveMailSeparator)
+        if failed:
+            class SomeAddrsFailed(Exception): pass
+            raise SomeAddrsFailed('Failed addrs:%s\n' % failed)
+        self.trace('Send exit')
+
+    def addAttachments(self, mainmsg, bodytext, attaches,
+                       bodytextEncoding, attachesEncodings):
+
+        # 添加主体文本/纯文本部分
+        msg = MIMEText(bodytext, _charset=bodytextEncoding)
+        mainmsg.attach(msg)
+
+        # 添加附件部分
+        encodings = attachesEncodings or (['us-ascii'] * len(attaches))
+        for (filename, fileencode) in zip(attaches, encodings):
+            if not os.path.isfile(filename):
+                continue
+
+            # 根据文件后缀名推测内容类型, 忽略编码
+            contype, encoding = mimetypes.guess_type(filename)
+            if contype is None or encoding is not None:
+                contype = 'application/octet-stream'
+            self.trace('Adding' + contype)
+
+            # 组建合适类型的Message子类
+            maintype, subtype = contype.split('/', 1)
+            if maintype == 'text':
+                if fix_text_required(fileencode):
+                    data = open(filename, 'r', encoding=fileencode)
+                else:
+                    data = open(filename, 'rb')
+
+
+
+
+
+
+
+
+
