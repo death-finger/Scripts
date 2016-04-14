@@ -133,6 +133,36 @@ class MailSender(MailTool):
                     data = open(filename, 'r', encoding=fileencode)
                 else:
                     data = open(filename, 'rb')
+                msg = MIMEText(data.read(), _subtype=subtype, _charset=fileencode)
+                data.close()
+
+            elif maintype == 'image':
+                data = open(filename, 'rb')
+                msg = MIMEImage(data.read(), _subtype=subtype, _encoder=fix_encode_base64)
+                data.close()
+
+            elif maintype == 'audio':
+                data = open(filename, 'rb')
+                msg = MIMEAudio(data.read(), _subtype=subtype, _encoder=fix_encode_base64)
+                data.close()
+
+            elif maintype == 'application':
+                data = open(filename, 'rb')
+                msg = MIMEApplication(data.read(), _subtype=subtype, _encoder=fix_encode_base64)
+                data.close()
+
+            else:
+                data = open(filename, 'rb')
+                msg = MIMEBase(maintype, subtype)
+                msg.set_payload(data.read())
+                data.close()
+                fix_encode_base64(msg)
+                #email.encoders.encode_base64(msg)
+
+            basename = os.path.basename(filename)
+            msg.add_header('Content-Disposition', 'attachment', filename=basename)
+            mainmsg.attach(msg)
+
 
 
 
