@@ -163,6 +163,34 @@ class MailSender(MailTool):
             msg.add_header('Content-Disposition', 'attachment', filename=basename)
             mainmsg.attach(msg)
 
+        mainmsg.preamble = 'A multi-part MIME format message.\n'
+        mainmsg.epilogue = ''
+
+    def saveSentMessage(self, fullText, saveMailSeparator):
+        try:
+            sentfile = open(mailconfig.sentmailfile, 'a', encoding=mailconfig.fetchEncoding)
+            if fullText[-1] != '\n': fullText += '\n'
+            sentfile.write(saveMailSeparator)
+            sentfile.write(fullText)
+            sentfile.close()
+        except:
+            self.trace('Could not save sent message')
+
+    def encodeHeader(self, headertext, unicodeencoding='utf-8'):
+        try:
+            headertext.encode('ascii')
+        except:
+            try:
+                hdrobj = email.header.make_header([(headertext, unicodeencoding)])
+                headertext = hdrobj.encode()
+            except:
+                pass
+        return headertext
+
+    def encodeAddrHeader(self, headertext, unicodeencoding='utf-8'):
+        try:
+
+
 
 
 

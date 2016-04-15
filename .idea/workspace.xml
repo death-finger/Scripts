@@ -28,8 +28,8 @@
       <file leaf-file-name="mailSender.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PP4E/Internet/Email/mailtools/mailSender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
+            <state relative-caret-position="291">
+              <caret line="183" column="64" selection-start-line="183" selection-start-column="64" selection-end-line="183" selection-end-column="64" />
               <folding>
                 <element signature="e#27#44#0" expanded="true" />
               </folding>
@@ -829,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460541493905</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="20160414 1750">
+      <created>1460627431672</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1460627431672</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -866,9 +873,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1267" height="745" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31804734" sideWeight="0.5146014" order="8" side_tool="true" content_ui="tabs" />
@@ -900,7 +907,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20160301 17:16" />
     <MESSAGE value="20160303 8:26" />
     <MESSAGE value="20160303 17:21" />
     <MESSAGE value="20160304 21:22" />
@@ -925,7 +931,8 @@
     <MESSAGE value="20160407 1742&#10;" />
     <MESSAGE value="20160411 1705&#10;" />
     <MESSAGE value="20160413 1758" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160413 1758" />
+    <MESSAGE value="20160414 1750" />
+    <option name="LAST_COMMIT_MESSAGE" value="20160414 1750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1342,8 +1349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/Internet/Email/mailtools/mailSender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="150" column="46" selection-start-line="150" selection-start-column="46" selection-end-line="150" selection-end-column="46" />
+        <state relative-caret-position="291">
+          <caret line="183" column="64" selection-start-line="183" selection-start-column="64" selection-end-line="183" selection-end-column="64" />
           <folding>
             <element signature="e#27#44#0" expanded="true" />
           </folding>
