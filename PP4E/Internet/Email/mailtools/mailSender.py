@@ -189,8 +189,67 @@ class MailSender(MailTool):
 
     def encodeAddrHeader(self, headertext, unicodeencoding='utf-8'):
         try:
+            pairs = email.utils.getaddresses([headertext])
+            encoded = []
+            for name, addr in pairs:
+                try:
+                    name.encode('ascii')
+                except UnicodeError:
+                    try:
+                        uni = name.encode(unicodeencoding)
+                        hdr = email.header.make_header([(uni, unicodeencoding)])
+                        name = hdr.encode()
+                    except:
+                        name = None
+                joined = email.utils.formataddr((name, addr))
+                encoded.append(joined)
+
+            fullhdr = ';'.join(encoded)
+            if len(fullhdr) > 72 or '\n' in fullhdr:
+                fullhdr = ';\n'.join(encoded)
+            return fullhdr
+        except:
+            return self.encodeHeader(headertext)
+
+    def authenticateServer(self, server):
+        pass
 
 
+######################################
+# 专用子类
+######################################
+
+class MailSenderAuth(MailSender):
+    smtpPassword = None
+
+    def __init__(self, smtpserver=None, smtpuser=None):
+        MailSender.__init__(self, smtpserver)
+        self.smtpUser = smtpuser or mailconfig.smtpuser
+        #self.smtpPassword = None
+
+    def authenticateServer(self, server):
+        server.login(self.smtpUser, self.smtpPassword)
+
+    def getPassword(self):
+        if not self.smtpPassword:
+            try:
+                localfile = open(mailconfig.smtppasswdfile)
+                MailSenderAuth.smtpPassword = localfile.readline()[:-1]
+                self.trace('local file password') + repr(self.smtpPassword)
+            except:
+                MailSenderAuth.smtpPassword = self.askSmtpPassword()
+
+    def askSmtpPassword(self):
+        assert False, 'Subclass must define method'
+
+class MailSenderAuthConsole(MailSenderAuth):
+    def askSmtpPassword(self):
+        import getpass
+        prompt = 'Password for %s on %s: ' % (self.smtpUser, self.smtpServerName)
+        return getpass.getpass(prompt)
+
+class SilentMailSender(SilentMailTool, MailSender):
+    pass
 
 
 
