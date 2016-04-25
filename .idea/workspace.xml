@@ -2,712 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21ac7bc-f033-4a18-8edc-2d8332df0dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image0.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image1.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image2.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image3.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image4.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image5.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/icons/image6.xpm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/mainwindow.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/Time-For-Lunch-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/centered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/ellipse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/figure8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/kinetic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/random.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/images/tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/accessories-dictionary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/akregator.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/digikam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/k3b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/easing/form.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/easing/images/qt-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/accessories-dictionary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/akregator.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/digikam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/help-browser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/k3b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/kchart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/animations/chilling" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/animations/dancing" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/animations/dead" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/animations/jumping" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/chat/chatmainwindow.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/chat/chatsetnickname.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/remotecontrolledcar/controller/controller.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/calculatorform/calculatorform.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/systray/images/bad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/systray/images/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/systray/images/trash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/logo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/logo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/logo3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/watermark1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/images/watermark2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/configdialog/images/config.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/configdialog/images/query.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/configdialog/images/update.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/delayedencoding/images/drag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggableicons/images/boat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggableicons/images/car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggableicons/images/house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/puzzle/example.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/collidingmice/images/cheese.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/background1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/background2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/background3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/background4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/bringtofront.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/floodfill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/linecolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/linepointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/pointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/sendtoback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/textpointer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/images/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/dragdroprobot/images/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/embeddeddialogs/No-Ones-Laughing-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/embeddeddialogs/embeddeddialog.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/form.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/artsfftscope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/blue_angle_swirl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/kontact_contacts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/kontact_journal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/kontact_mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/kontact_notes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/kopeteavailable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/metacontact_online.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/images/minitools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/sharedmemory/dialog.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/sharedmemory/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/sharedmemory/qt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/editabletreemodel/mainwindow.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/pixelator/images/qt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/puzzle/example.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/images/interview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/images/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/images/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/images/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/images/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/images/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/images/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/images/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/images/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/images/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/images/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/images/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/images/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/images/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/images/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/images/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/images/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/images/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/images/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/images/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/images/save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimedia/audiodevices/audiodevicesbase.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/camera.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/imagesettings.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/videosettings.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/http/authenticationdialog.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/images/side1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/images/side2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/images/side3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/images/side4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/images/side5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/images/side6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/basicdrawing/images/brick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/basicdrawing/images/qt-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/pyuic/demo.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/images/demobg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/images/qtlogo_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/images/trolltech-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/images/face-smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/images/moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/images/shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/images/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/images/sun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/states/qt-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/button-pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/gloss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/lineedit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/quit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/stripes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/titlebar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/toolbutton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/qt-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/squircle/squircle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/images/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/logo32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/editcopy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/editcut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/editpaste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/editredo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/editundo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/exportpdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/filenew.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/fileopen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/fileprint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textbold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textcenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textitalic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textjustify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/textunder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/zoomin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/mac/zoomout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/editcopy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/editcut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/editpaste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/editredo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/editundo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/exportpdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/filenew.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/fileopen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/fileprint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textbold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textcenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textitalic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textjustify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/textunder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/zoomin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/images/win/zoomout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_ar.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_cs.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_de.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_el.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_en.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_eo.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_fr.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_it.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_jp.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_ko.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_no.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_pt.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_ru.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_sv.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_zh.qm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/domtraversal/window.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/formextractor/formextractor.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/previewer/previewer.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/simpleselector/window.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/designer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/find_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/find_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_off_128x128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_off_16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_off_32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_off_64x64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_on_128x128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_on_16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_on_32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/monkey_on_64x64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/qt_extended_16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/qt_extended_32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/images/qt_extended_48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/movie/animation.mng" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/checkbox_checked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/checkbox_checked_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/checkbox_checked_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/checkbox_unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/checkbox_unchecked_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/checkbox_unchecked_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/down_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/down_arrow_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/frame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/pagefold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/pushbutton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/pushbutton_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/pushbutton_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/radiobutton_checked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/radiobutton_checked_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/radiobutton_checked_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/radiobutton_unchecked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/radiobutton_unchecked_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/radiobutton_unchecked_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/sizegrip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spindown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spindown_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spindown_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spindown_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spinup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spinup_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spinup_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/spinup_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/up_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/images/up_arrow_disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/mainwindow.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/stylesheeteditor.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tooltips/images/circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tooltips/images/square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tooltips/images/triangle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/schema.ui" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MyMailGui/MyMailGui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/MyProjects/MyMailGui/WindowFrame.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/mainwindow.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/mainwindow_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/ui_mainwindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/activeqt/webbrowser/webbrowser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/animatedtiles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/animatedtiles.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/animatedtiles/animatedtiles_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/appchooser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/appchooser.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/appchooser/appchooser_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/easing/easing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/easing/easing.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/easing/easing_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/easing/ui_form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/moveblocks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/states.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/states.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/states/states_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/stickman.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/stickman.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/animation/stickman/stickman_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/chat/chat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/chat/ui_chatmainwindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/chat/ui_chatsetnickname.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/listnames.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/pingpong/ping.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/pingpong/pong.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/remotecontrolledcar/car/car.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/remotecontrolledcar/controller/controller.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dbus/remotecontrolledcar/controller/ui_controller.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/calculatorform/calculatorform.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/calculatorform/ui_calculatorform.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/plugins.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/analogclockplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/bubbleswidgetplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/counterlabelplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/datetimeeditplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/helloglwidgetplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/multipagewidgetplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/polygonwidgetplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/pydemoplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/python/pythonconsoleplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/analogclock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/bubbleswidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/counterlabel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/datetimeedit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/helloglwidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/multipagewidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/polygonwidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/pydemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/designer/plugins/widgets/pythonconsolewidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/screenshot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/systray/systray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/systray/systray.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/desktop/systray/systray_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/classwizard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/classwizard.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/classwizard/classwizard_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/configdialog/configdialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/configdialog/configdialog.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/configdialog/configdialog_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/extension.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/findfiles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/standarddialogs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/tabdialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/dialogs/trivialwizard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/delayedencoding/delayedencoding.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/delayedencoding/delayedencoding.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/delayedencoding/delayedencoding_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/delayedencoding/images/example.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggableicons/draggableicons.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggableicons/draggableicons.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggableicons/draggableicons_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggabletext/draggabletext.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggabletext/draggabletext.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggabletext/draggabletext_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/draggabletext/words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/dropsite.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/fridgemagnets/fridgemagnets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/fridgemagnets/fridgemagnets.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/fridgemagnets/fridgemagnets_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/fridgemagnets/words.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/puzzle/puzzle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/puzzle/puzzle.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/draganddrop/puzzle/puzzle_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/effects/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/effects/lighting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/anchorlayout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/collidingmice/collidingmice.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/collidingmice/mice.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/collidingmice/mice_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/diagramscene.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/diagramscene.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/diagramscene/diagramscene_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/dragdroprobot/dragdroprobot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/elasticnodes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/embeddeddialogs/embeddeddialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/embeddeddialogs/embeddeddialogs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/embeddeddialogs/embeddeddialogs.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/embeddeddialogs/embeddeddialogs_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/padnavigator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/padnavigator.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/padnavigator_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/graphicsview/padnavigator/ui_form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/localfortuneclient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/localfortuneserver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/sharedmemory/dialog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/ipc/sharedmemory/sharedmemory.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/basicsortfiltermodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/chart/chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/chart/chart.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/chart/chart_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/chart/mydata.cht" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/chart/qtdata.cht" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/coloreditorfactory.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/combowidgetmapper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/customsortfiltermodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/dirview.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/editabletreemodel/default.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/editabletreemodel/editabletreemodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/editabletreemodel/editabletreemodel.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/editabletreemodel/editabletreemodel_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/editabletreemodel/ui_mainwindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/fetchmore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/pixelator/pixelator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/pixelator/pixelator.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/pixelator/pixelator_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/puzzle/puzzle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/puzzle/puzzle.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/puzzle/puzzle_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/simpledommodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/simpletreemodel/default.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/simpletreemodel/simpletreemodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/simpletreemodel/simpletreemodel.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/simpletreemodel/simpletreemodel_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/simplewidgetmapper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spinboxdelegate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/printview.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/spreadsheet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/spreadsheet.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/spreadsheet_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/spreadsheetdelegate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/spreadsheetitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/spreadsheet/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/itemviews/stardelegate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/layouts/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/layouts/basiclayouts.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/layouts/borderlayout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/layouts/flowlayout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/application/application.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/dockwidgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/dockwidgets.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/dockwidgets/dockwidgets_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/mdi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/mdi.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/mdi/mdi_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/menus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/recentfiles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/sdi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/sdi.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/sdi/sdi_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/mainwindows/separations.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimedia/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimedia/audiodevices/audiodevices.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimedia/audiodevices/ui_audiodevicesbase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimedia/audiooutput.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/camera.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/ui_camera.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/ui_imagesettings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/camera/ui_videosettings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/player.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/videographicsitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/multimediawidgets/videowidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/blockingfortuneclient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/broadcastreceiver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/broadcastsender.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/fortuneclient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/fortuneserver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/http/http.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/lightmaps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/loopback.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/network/threadedfortuneserver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/2dpainting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/grabber.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/hellogl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/openglwindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/overpainting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/opengl/textures/textures.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/basicdrawing/basicdrawing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/basicdrawing/basicdrawing.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/basicdrawing/basicdrawing_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/concentriccircles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/painterpaths.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/svgviewer/files/bubbles.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/svgviewer/files/cubic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/svgviewer/files/spheres.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/svgviewer/svgviewer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/svgviewer/svgviewer.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/svgviewer/svgviewer_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/painting/transformations.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/pyuic/compile-on-the-fly.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/pyuic/load_ui1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/pyuic/load_ui2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/adding.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/attached.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/binding.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/coercion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/default.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/grouped.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/methods.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/properties.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/signal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qml/referenceexamples/valuesource.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/colors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/demoitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/demoitemanimation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/demotextitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/examplecontent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/examples.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/guide.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/guidecircle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/guideline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/headingitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/imageitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/itemcircleanimation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/letteritem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/mainwindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/menucontent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/menumanager.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/qtdemo.pyw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/scanitem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/score.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/qtdemo/textbutton.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/animation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/animation.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/animation.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/animation_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/color-animation.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/basics/property-animation.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/behaviors/SideRect.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/behaviors/behavior-example.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/behaviors/tvtennis.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/behaviors/wigglytext.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/easing/easing.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/pathanimation/pathanimation.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/pathinterpolator/pathinterpolator.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/states/states.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/animation/states/transitions.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/bezierCurve/bezierCurve.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/canvas.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/canvas.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/canvas.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/canvas_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/clip/clip.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/Button.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/ScrollBar.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/Slider.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/TitleBar.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/ToolBar.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/default.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/lineedit.sci" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/titlebar.sci" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/contents/images/toolbutton.sci" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/quadraticCurveTo/quadraticCurveTo.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/roundedrect/roundedrect.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/smile/smile.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/squircle/squircle.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/tiger/tiger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/canvas/tiger/tiger.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/abstractitemmodel/abstractitemmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/abstractitemmodel/abstractitemmodel.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/abstractitemmodel/abstractitemmodel_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/abstractitemmodel/view.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/objectlistmodel/objectlistmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/objectlistmodel/objectlistmodel.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/objectlistmodel/objectlistmodel_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/objectlistmodel/view.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/stringlistmodel/stringlistmodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/stringlistmodel/stringlistmodel.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/stringlistmodel/stringlistmodel_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/models/stringlistmodel/view.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/scenegraph/customgeometry/customgeometry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/scenegraph/customgeometry/customgeometry.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/scenegraph/customgeometry/customgeometry_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/scenegraph/customgeometry/main.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/Button.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/LauncherList.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/SimpleLauncherDelegate.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/shared.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/shared/shared_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter1-basics/app.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter1-basics/chapter1-basics.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter2-methods/app.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter2-methods/chapter2-methods.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter3-bindings/app.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter3-bindings/chapter3-bindings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter4-customPropertyTypes/app.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter4-customPropertyTypes/chapter4-customPropertyTypes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter5-listproperties/app.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter5-listproperties/chapter5-listproperties.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter6-plugins/Charts/chartsplugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter6-plugins/Charts/piechart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter6-plugins/Charts/pieslice.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter6-plugins/Charts/qmldir" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/quick/tutorials/extending/chapter6-plugins/app.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/calendar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/orderform.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/syntaxhighlighter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/textedit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/textedit.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textedit/textedit_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textobject/files/heart.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/richtext/textobject/textobject.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/sql/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/sql/cachedtable.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/sql/connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/sql/querymodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/sql/relationaltablemodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/sql/tablemodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/threads/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/threads/mandelbrot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/threads/semaphores.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/threads/waitconditions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/codecs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/encodedfiles/iso-8859-1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/encodedfiles/iso-8859-15.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/encodedfiles/utf-16.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/encodedfiles/utf-16be.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/encodedfiles/utf-16le.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/codecs/encodedfiles/utf-8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/customcompleter/customcompleter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/customcompleter/customcompleter.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/customcompleter/customcompleter_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/customcompleter/resources/wordlist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/i18n.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/i18n.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/i18n_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_ar.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_cs.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_de.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_el.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_en.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_eo.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_fr.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_it.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_jp.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_ko.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_no.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_pt.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_ru.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_sv.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/i18n/translations/i18n_zh.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/regexp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/settingseditor/inifiles/licensepage.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/settingseditor/inifiles/qsa.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tools/settingseditor/settingseditor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/tutorials/addressbook/part7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/domtraversal/domtraversal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/domtraversal/ui_window.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/fancybrowser/fancybrowser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/fancybrowser/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/fancybrowser/jquery.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/fancybrowser/jquery_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/formextractor/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/formextractor/formextractor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/formextractor/formextractor.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/formextractor/formextractor_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/formextractor/ui_formextractor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/framecapture.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/previewer/previewer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/previewer/ui_previewer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/simpleselector/simpleselector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/webkit/simpleselector/ui_window.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/analogclock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/calculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/calendarwidget.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/charactermap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/digitalclock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/groupbox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/icons/icons.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/imageviewer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/lineedits.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/movie/movie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/scribble.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/shapedclock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/sliders.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/spinboxes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/styles.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/qss/coffee.qss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/qss/default.qss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/qss/pagefold.qss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/stylesheet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/stylesheet.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/stylesheet_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/stylesheeteditor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/ui_mainwindow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/stylesheet/ui_stylesheeteditor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tetrix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tooltips/tooltips.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tooltips/tooltips.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/tooltips/tooltips_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/wiggly.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/widgets/windowflags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/contact.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/invalid_contact.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/invalid_order.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/invalid_recipe.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/order.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/recipe.xsd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/valid_contact.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/valid_order.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/files/valid_recipe.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/schema.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/schema.qrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/schema_rc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyQtExamples/examples/xmlpatterns/schema/ui_schema.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Scripts.iml" afterPath="$PROJECT_DIR$/.idea/Scripts.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/webserver.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP4E/test.py" afterPath="$PROJECT_DIR$/PP4E/test.py" />
     </list>
     <ignored path="Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -728,7 +24,20 @@
     <favorites_list name="Scripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="webserver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/webserver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="e#13#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -752,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PP4E/Internet/Sockets/select-server.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Sockets/test-socket_stream_redirect.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Sockets/socket_stream_redirect.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Sockets/test-stream-modes.py" />
@@ -803,6 +111,7 @@
         <option value="$PROJECT_DIR$/safari.css" />
         <option value="$PROJECT_DIR$/PP4E/MyProjects/MyMailGui/WindowFrame.py" />
         <option value="$PROJECT_DIR$/PP4E/test.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Web/webserver.py" />
       </list>
     </option>
   </component>
@@ -893,6 +202,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PP4E" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Internet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1465,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1461232471323</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="20160414 1750">
+      <created>1461576844240</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1461576844240</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1502,15 +858,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1267" height="745" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29992107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29992107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31804734" sideWeight="0.5146014" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31213018" sideWeight="0.5177585" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.49723756" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24704142" sideWeight="0.49349523" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31213018" sideWeight="0.4853986" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31213018" sideWeight="0.4822415" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1573,13 +929,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Sockets/pipe-unbuff-writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/Internet/Sockets/socket-unbuff-client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1928,6 +1277,16 @@
         <state relative-caret-position="318">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/webserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#13#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
