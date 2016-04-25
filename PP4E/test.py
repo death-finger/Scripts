@@ -1,45 +1,51 @@
-import poplib
-from email.parser import Parser
-#sep = None
-sep = '='*80 + '\n\n'
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+"""
+ZetCode PyQt5 tutorial 
+
+This program creates a menubar. The
+menubar has one menu with an exit action.
+
+author: Jan Bodnar
+website: zetcode.com 
+last edited: January 2015
+"""
+
+import sys
+from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication
+from PyQt5.QtGui import QIcon
 
 
-def trace(sep=None):
-    print(sep)
+class Example(QMainWindow):
+    
+    def __init__(self):
+        super().__init__()
+        
+        self.initUI()
+        
+        
+    def initUI(self):               
+        
+        exitAction = QAction(QIcon('exit.png'), '&Exit', self)        
+        exitAction.setShortcut('Ctrl+Q')
+        exitAction.setStatusTip('Exit application')
+        exitAction.triggered.connect(qApp.quit)
 
-def maildec(txt):
-    return [line.decode('utf8') for line in txt]
+        self.statusBar()
 
-srvr = poplib.POP3('pop.sina.com')
-srvr.user('joshuapu@sina.com')
-srvr.pass_('bagakira')
-srvr.getwelcome()
-trace(sep)
-
-msgCount, msgByte = srvr.stat()
-trace(sep)
-
-"""msgs = []
-for i in range(1, msgCount + 1):
-    msg = srvr.retr(i)
-    msgs.append(msg)
-msg1 = msgs[0]"""
-
-
-
-resp, hdrlines, respsz = srvr.top(1, 0)
-hdr = maildec(hdrlines)
-#hdrpar = Parser.parsestr(hdr)
-
-
-resp, text, respsz = srvr.retr(1)
-msg = maildec(text)
-with open('htmltest.html', 'w') as file:
-    for item in msg:
-        file.write(item + '\n')
-
-
-print(hdr)
-trace(sep)
-print(msg)
-trace(sep)
+        menubar = self.menuBar()
+        menubar.setNativeMenuBar(False)
+        fileMenu = menubar.addMenu('&File')
+        fileMenu.addAction(exitAction)
+        
+        self.setGeometry(300, 300, 300, 200)
+        self.setWindowTitle('Menubar')    
+        self.show()
+        
+        
+if __name__ == '__main__':
+    
+    app = QApplication(sys.argv)
+    ex = Example()
+    sys.exit(app.exec_())
