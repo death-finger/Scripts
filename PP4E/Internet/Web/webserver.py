@@ -5,7 +5,7 @@ from http.server import HTTPServer, CGIHTTPRequestHandler
 
 
 webdir = '.'
-port = 80
+port = 60000
 
 if len(sys.argv) >1: webdir = sys.argv[1]
 if len(sys.argv) >2: port = int(sys.argv[2])
