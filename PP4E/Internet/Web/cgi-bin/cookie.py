@@ -6,6 +6,7 @@ there is no input form data to parse in this example
 import http.cookies, os
 cookstr  = os.environ.get("HTTP_COOKIE")
 cookies  = http.cookies.SimpleCookie(cookstr)
+
 usercook = cookies.get("user")                     # fetch if sent
 
 if usercook == None:                               # create first time
