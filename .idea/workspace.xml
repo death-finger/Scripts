@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21ac7bc-f033-4a18-8edc-2d8332df0dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/languages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/formMockup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/tutor5_mockup.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/cookie.py" afterPath="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/cookie.py" />
     </list>
     <ignored path="Scripts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="languages.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/languages.html">
+      <file leaf-file-name="languages2common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="languages.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages.py">
+      <file leaf-file-name="languages2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formMockup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/formMockup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tutor5_mockup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/tutor5_mockup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -71,10 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/putfile.py" />
-        <option value="$PROJECT_DIR$/PP4E/sousa.py" />
-        <option value="$PROJECT_DIR$/PP4E/getfilegui.py" />
-        <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/getfilegui.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/putfilegui.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/PyFtpGui.pyw" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat.py" />
@@ -122,6 +139,10 @@
         <option value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/cookie.py" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Web/languages.html" />
         <option value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2common.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/formMockup.py" />
+        <option value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/tutor5_mockup.py" />
       </list>
     </option>
   </component>
@@ -315,7 +336,7 @@
       <recent name="$PROJECT_DIR$/PP4E/GUI/PIL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.webserver">
+  <component name="RunManager" selected="Python.formMockup">
     <configuration default="false" name="WindowFrame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,6 +367,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Scripts" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Web/webserver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="formMockup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/formMockup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -521,16 +559,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.PyMailGUI" />
       <item index="1" class="java.lang.String" itemvalue="Python.test.py" />
       <item index="2" class="java.lang.String" itemvalue="Python.WindowFrame" />
       <item index="3" class="java.lang.String" itemvalue="Python.webserver" />
+      <item index="4" class="java.lang.String" itemvalue="Python.formMockup" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.webserver" />
-        <item index="1" class="java.lang.String" itemvalue="Python.WindowFrame" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.formMockup" />
+        <item index="1" class="java.lang.String" itemvalue="Python.webserver" />
+        <item index="2" class="java.lang.String" itemvalue="Python.WindowFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -547,13 +587,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1455614410098</updated>
-    </task>
-    <task id="LOCAL-00004" summary="20160221 12:59">
-      <created>1456030870353</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1456030870353</updated>
     </task>
     <task id="LOCAL-00005" summary="20160222 14:17">
       <created>1456121835227</created>
@@ -891,7 +924,14 @@
       <option name="project" value="LOCAL" />
       <updated>1461921274759</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <created>1462269560327</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1462269560330</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -928,9 +968,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1267" height="745" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29992107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29992107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31213018" sideWeight="0.52091557" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -962,7 +1002,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20160303 8:26" />
     <MESSAGE value="20160303 17:21" />
     <MESSAGE value="20160304 21:22" />
     <MESSAGE value="20160307 17:01" />
@@ -987,7 +1026,8 @@
     <MESSAGE value="20160411 1705&#10;" />
     <MESSAGE value="20160413 1758" />
     <MESSAGE value="20160414 1750" />
-    <option name="LAST_COMMIT_MESSAGE" value="20160414 1750" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,34 +1039,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/downloadflat_modular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadflat_modular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/ftptools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/uploadall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/Internet/Ftp/Mirror/cleanall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1355,8 +1367,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/languages2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/formMockup.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PP4E/Internet/Web/cgi-bin/tutor5_mockup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
           <folding />
         </state>
       </provider>
