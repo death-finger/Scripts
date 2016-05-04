@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+
 debugme = False
 inputkey = 'language'
 
@@ -20,7 +21,7 @@ class dummy:
     def __init__(self, str):
         self.value = str
 
-import cgi, sys
+import cgi, sys, html
 if debugme:
     form = {inputkey: dummy(sys.argv[1])}
 else:
@@ -34,7 +35,7 @@ def showHello(form):
     choice = form[inputkey].value
     print("<h3>%s</h3><p><pre>" % choice)
     try:
-        print(cgi.escape(hellos[choice]))
+        print(html.escape(hellos[choice]))
     except KeyError:
         print('Sorry--I don\'t know that language')
     print('</pre></p><br>')
