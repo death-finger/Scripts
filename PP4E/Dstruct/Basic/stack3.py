@@ -36,17 +36,24 @@ class Stack:
 if __name__ == '__main__':
     import time
     from stack2 import Stack as NormStack
-    x = Stack()
-    y = NormStack()
-    start = time.time()
-    for i in range(50000):
-        x.push(i)
-    f_time = time.time() - start
-    start = time.time()
-    for i in range(50000):
-        y.push(i)
-    n_time = time.time() - start
-    print(f_time)
-    print(n_time)
-    print(n_time/f_time)
+    from stack4 import Stack as AppendStack
+    x = NormStack()
+    y = Stack()
+    z = AppendStack()
+    tests = []
+    for i in x, y, z:
+        start = time.time()
+        for num in range(50000):
+            i.push(num)
+        f_time = time.time() - start
+        tests.append(f_time)
+
+    for ti in tests:
+        sep = '='*30
+        print('Time => %s\n' % (ti))
+        print(sep)
+    print('NormStack/TupleStack = %s' % (tests[0]/tests[1]))
+    print('NormStack/AppendStack = %s' % (tests[0]/tests[2]))
+    print('AppendStack/TupleStack = %s' % (tests[2]/tests[1]))
+
 
